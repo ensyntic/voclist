@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>VOCLIST+</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+    <style>
+        :root {
+            --text-muted: #9ca3af;
+            --glow: #3b82f6;
+            --label-border: #374151;
+        }
+
+        body.light-theme {
+            --text-muted: #6b7280;
+            --glow: rgba(7, 92, 230, 0.4);
+            --label-border: #d1d5db;
+        }
+
+        * { -webkit-tap-highlight-color:transparent; -webkit-user-select:none; user-select:none; outline:none!important; }
+        
+        .arabic-text { font-family:'Noto Sans Arabic',sans-serif; direction: ltr; text-align: left; font-size: 1rem; color: var(--text-muted); display: block; }
+        .english-text { font-size:1.3rem; font-weight:700; transition:all 0.3s; color:var(--text-bright); text-align: left; }
+        
+        .card-container { margin-bottom:1rem; border-left:5px solid var(--blue); border-radius:0.75rem; overflow:hidden; background-color:var(--card-bg); display: flex; flex-direction: column; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        
+        .word-row { padding:1rem 1.25rem; cursor:pointer; display:flex; justify-content:space-between; align-items:center; border-bottom: 1px solid var(--border); transition: background 0.2s; }
+        .word-row:last-child { border-bottom: none; }
+        
+        .word-info { display:flex; flex-direction:column; gap:2px; flex-grow:1; text-align: left; }
+
+        .word-row.active .english-text { color: var(--blue)!important; text-shadow: 0 0 15px var(--glow); font-size: 1.5rem; }
+
+        .label-text { text-transform:uppercase; font-size:0.85rem; font-weight:700; color:var(--text-muted); margin:1.5rem 0 0.5rem 0.5rem; border-left:2px solid var(--label-border); padding-left:0.8rem; letter-spacing:0.05em; text-align: left; }
+    </style>
+</head>
+<body class="p-4">
+    <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn" aria-label="Toggle Theme"></button>
+
+    <div id="vocabulary-list" class="max-w-2xl mx-auto"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const params = new URLSearchParams(window.location.search);
+            let path = params.get('data');
+            if (!path) return;
+            path = path.replace('.json', '.txt');
+            if (path.startsWith('v/')) {
+                path = 'list/' + path.substring(2);
+            } else if (!path.startsWith('list/')) {
+                path = 'list/' + path;
+            }
+            try {
+                const res = await fetch(path);
+                const text = await res.text();
+                const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                const list = document.getElementById('vocabulary-list');
+                
+                const pronounce = (w) => {
+                    let n = w.toLowerCase().replace(/[^a-z0-9.]/g,'_');
+                    new Audio(`/audio/${n}.wav`).play().catch(()=>{});
+                };
+
+                lines.forEach(line => {
+                    if (line.startsWith('*')) {
+                        const d = document.createElement('div');
+                        d.className = 'label-text';
+                        d.innerText = line.substring(1);
+                        list.appendChild(d);
+                        return;
+                    }
+
+                    const parts = line.split(',');
+                    const container = document.createElement('div');
+                    container.className = 'card-container';
+                    
+                    for (let i = 0; i < parts.length; i += 2) {
+                        const eng = parts[i].trim();
+                        const arb = parts[i+1] ? parts[i+1].trim() : '';
+                        
+                        const row = document.createElement('div');
+                        row.className = 'word-row';
+                        row.innerHTML = `
+                            <div class="word-info">
+                                <span class="english-text">${eng.replace(/\.[a-z]+$/, '')}</span>
+                                <span class="arabic-text">${arb}</span>
+                            </div>
+                        `;
+
+                        row.onclick = () => {
+                            document.querySelectorAll('.word-row').forEach(r => r.classList.remove('active'));
+                            row.classList.add('active');
+                            pronounce(eng);
+                        };
+
+                        container.appendChild(row);
+                    }
+                    list.appendChild(container);
+                });
+            } catch (e) { console.error(e); }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
+@import url('https://fonts.cdnfonts.com/css/comic-sans-ms');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;600;700&display=swap');
+
+:root {
+    --bg: #0A0D15;
+    --blue: #075CE6;
+    --text: #dcdcdc;
+    --text-bright: #ffffff;
+    --text-color: #dcdcdc;
+    --card-bg: #1a1a2a;
+    --border: rgba(255, 255, 255, 0.1);
+    --select-bg: #1a1a2a;
+    --item-bg: #111827;
+}
+
+body.light-theme {
+    --bg: #f3f4f6;
+    --card-bg: #f9fafb;
+    --text: #374151;
+    --text-color: #374151;
+    --text-bright: #111827;
+    --border: rgba(0, 0, 0, 0.1);
+    --select-bg: #ffffff;
+    --item-bg: #ffffff;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Noto Sans Arabic', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cooper Black', 'Noto Sans Arabic', serif;
+}
+
+.glass {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 1.5rem;
+}
+
+select {
+    background-color: var(--select-bg) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--text) !important;
+    font-weight: 600;
+}
+
+.item-card {
+    background-color: var(--item-bg);
+    color: var(--text);
+    transition: all 0.2s;
+    border: 1px solid var(--border);
+    cursor: pointer;
+}
+
+.item-card:hover {
+    background-color: var(--blue) !important;
+    color: white !important;
+    border-color: transparent;
+}
+
+.choice-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border);
+    border-radius: 1.5rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.choice-card:hover {
+    border-color: var(--blue);
+}
+
+.choice-card h2 {
+    color: var(--text-bright);
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    z-index: 100;
+    color: var(--text-bright);
+    transition: transform 0.2s;
+}
+
+.theme-toggle:active {
+    transform: scale(0.9);
+}
+
+.hidden {
+    display: none;
+}

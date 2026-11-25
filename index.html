@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOCLIST</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+</head>
+<body class="p-6">
+    <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn"></button>
+
+    <div id="auth-screen" class="max-w-md mx-auto min-h-[80vh] flex flex-col items-center justify-center">
+        <div class="glass p-8 w-full text-center space-y-6">
+            <h1 class="text-4xl font-bold" style="color: var(--text-bright)">Welcome to <span class="text-[#075CE6]">VOCLIST</span></h1>
+            <p class="text-sm opacity-70"> </p>
+            <input type="number" id="dest-code" class="w-full p-4 rounded-xl outline-none text-center font-bold tracking-widest text-l bg-[var(--select-bg)] border border-[var(--border)] text-[var(--text-bright)]" placeholder="Enter the destination code">
+            <button onclick="handleCodeSubmit()" class="w-full p-4 bg-[#075CE6] text-white font-bold rounded-xl hover:opacity-90 transition">CONTINUE</button>
+        </div>
+    </div>
+
+    <div id="welcome-screen" class="max-w-4xl mx-auto min-h-[80vh] flex flex-col items-center justify-center hidden">
+        <h1 class="text-3xl md:text-4xl font-bold mb-12" style="color: var(--text-bright)">Select Mode</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+            <div class="choice-card p-10 md:p-12 text-center" onclick="openPortal('voc')">
+                <h2 class="text-4xl md:text-5xl font-bold mb-2">VOC<span class="text-[#075CE6]">LIST</span></h2>
+                <p class="text-[0.7rem] opacity-60 font-bold uppercase tracking-widest">Vocabulary Builder</p>
+            </div>
+            <div class="choice-card p-10 md:p-12 text-center" onclick="openPortal('quiz')">
+                <h2 class="text-4xl md:text-5xl font-bold mb-2">QUIZ<span class="text-[#075CE6]">ZER</span></h2>
+                <p class="text-[0.7rem] opacity-60 font-bold uppercase tracking-widest">Practice Tests</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="portal-screen" class="max-w-2xl mx-auto hidden">
+        <div class="relative flex items-center justify-center mb-10">
+            <button onclick="goBack()" class="absolute left-0 text-[0.65rem] font-bold opacity-50 hover:opacity-100 tracking-tighter" style="color: var(--text)">← CHANGE MODE</button>
+            <h1 id="portal-title" class="text-3xl font-bold" style="color: var(--text-bright)"></h1>
+        </div>
+        
+        <div class="glass p-6 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <select id="stage" class="p-3 rounded-xl outline-none">
+                    <option value="ALL">All Stages</option>
+                </select>
+                <select id="term" class="p-3 rounded-xl outline-none">
+                    <option value="ALL">All Terms</option>
+                </select>
+                <select id="grade" class="p-3 rounded-xl outline-none">
+                    <option value="ALL">All Grades</option>
+                </select>
+            </div>
+        </div>
+        <div id="container" class="space-y-3"></div>
+    </div>
+
+    <script>
+        let currentMode = ''; 
+        let currentList = [];
+        let parsedData = [];
+        const welcome = document.getElementById('welcome-screen'), portal = document.getElementById('portal-screen'), title = document.getElementById('portal-title'), container = document.getElementById('container'), stageS = document.getElementById('stage'), termS = document.getElementById('term'), gradeS = document.getElementById('grade');
+        
+        function handleCodeSubmit() {
+            const code = document.getElementById('dest-code').value.trim();
+            if (code === '685724193' || code === '625184739') {
+                document.getElementById('auth-screen').classList.add('hidden');
+                welcome.classList.remove('hidden');
+                return;
+            }
+            if (typeof decodeBarcode === 'function') {
+                const decoded = decodeBarcode(code);
+                if (decoded && decoded.mode) {
+                    const target = decoded.mode === 'VOCLIST' ? 'voclist+.html' : 'quizzer.html';
+                    window.location.href = `${target}?data=list/${decoded.raw}`;
+                    return;
+                }
+            }
+            if (code.length >= 5 && /^\d+$/.test(code)) {
+                const s1 = parseInt(code[0], 10);
+                const target = (s1 <= 4) ? 'voclist+.html' : 'quizzer.html';
+                window.location.href = `${target}?data=list/${code}`;
+                return;
+            }
+            alert('Invalid code. Please try again.');
+        }
+
+        document.getElementById('dest-code').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                handleCodeSubmit();
+            }
+        });
+
+        async function openPortal(mode) {
+            currentMode = mode;
+            welcome.classList.add('hidden');
+            portal.classList.remove('hidden');
+            title.innerHTML = mode === 'voc' ? 'VOC<span style="color:var(--blue)">LIST</span>' : 'QUIZ<span style="color:var(--blue)">ZER</span>';
+            const fileName = mode === 'voc' ? 'voclist.txt' : 'quizzer.txt';
+            try {
+                const res = await fetch(fileName);
+                if (res.ok) {
+                    const text = await res.text();
+                    currentList = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                } else { currentList = []; }
+            } catch (e) { currentList = []; }
+            
+            parseList();
+            stageS.value = 'ALL';
+            termS.value = 'ALL';
+            gradeS.value = 'ALL';
+            updateDropdowns();
+            render();
+        }
+
+        function goBack() {
+            portal.classList.add('hidden');
+            welcome.classList.remove('hidden');
+            stageS.value = 'ALL';
+            termS.value = 'ALL';
+            gradeS.value = 'ALL';
+        }
+
+        function parseList() {
+            parsedData = [];
+            currentList.forEach(line => {
+                let extMatch = line.match(/(\.txt|\.json|\.v|\.q)/i);
+                let p = line;
+                let note = '';
+                let basePath = line;
+                
+                if (extMatch) {
+                    let splitIdx = extMatch.index + extMatch[0].length;
+                    p = line.substring(0, splitIdx).trim();
+                    note = line.substring(splitIdx).trim();
+                    basePath = p.substring(0, extMatch.index).trim();
+                }
+
+                let cleanPath = p;
+                if (cleanPath.startsWith('list/')) {
+                    cleanPath = cleanPath.substring(5);
+                }
+
+                let parts = cleanPath.split('/');
+                if (parts.length > 0) {
+                    let lastPart = parts[parts.length - 1];
+                    parts[parts.length - 1] = lastPart.replace(/\.(txt|json|v|q)$/i, '');
+                }
+                
+                let label = parts.join(' | ');
+                let stage = 'Other', term = 'Other', grade = 'Other';
+
+                if (parts.length > 0) {
+                    let layer1 = parts[0];
+                    let match = layer1.match(/^([a-zA-Z\s]+)\s+(\d+.*)$/);
+                    if (match) {
+                        stage = match[1].trim();
+                        grade = 'Grade ' + match[2].trim();
+                    } else {
+                        stage = layer1.trim();
+                    }
+                }
+
+                if (parts.length > 1) {
+                    let layer2 = parts[1];
+                    if (layer2.match(/^Term\s+1$/i)) term = '1st Term';
+                    else if (layer2.match(/^Term\s+2$/i)) term = '2nd Term';
+                    else if (layer2.match(/^Term\s+3$/i)) term = '3rd Term';
+                    else term = layer2.trim();
+                }
+
+                parsedData.push({
+                    basePath: basePath,
+                    note: note ? ' ' + note : '',
+                    stage: stage,
+                    term: term,
+                    grade: grade,
+                    label: label
+                });
+            });
+        }
+
+        function updateDropdowns() {
+            const sVal = stageS.value;
+            const tVal = termS.value;
+            const gVal = gradeS.value;
+
+            let stages = new Set();
+            let terms = new Set();
+            let grades = new Set();
+
+            parsedData.forEach(item => {
+                stages.add(item.stage);
+                if (sVal === 'ALL' || item.stage === sVal) {
+                    if (item.term !== 'Other') terms.add(item.term);
+                    if (item.grade !== 'Other') grades.add(item.grade);
+                }
+            });
+
+            stageS.innerHTML = '<option value="ALL">All Stages</option>';
+            Array.from(stages).sort().forEach(s => {
+                stageS.innerHTML += `<option value="${s}">${s}</option>`;
+            });
+            stageS.value = stages.has(sVal) ? sVal : 'ALL';
+
+            termS.innerHTML = '<option value="ALL">All Terms</option>';
+            Array.from(terms).sort().forEach(t => {
+                termS.innerHTML += `<option value="${t}">${t}</option>`;
+            });
+            termS.value = terms.has(tVal) ? tVal : 'ALL';
+
+            gradeS.innerHTML = '<option value="ALL">All Grades</option>';
+            Array.from(grades).sort().forEach(g => {
+                gradeS.innerHTML += `<option value="${g}">${g}</option>`;
+            });
+            gradeS.value = grades.has(gVal) ? gVal : 'ALL';
+        }
+
+        function render() {
+            container.innerHTML = '';
+            parsedData.forEach(item => {
+                let sMatch = (stageS.value === 'ALL' || stageS.value === item.stage);
+                let tMatch = (termS.value === 'ALL' || termS.value === item.term);
+                let gMatch = (gradeS.value === 'ALL' || gradeS.value === item.grade);
+                
+                if (sMatch && tMatch && gMatch) {
+                    createCard(item.basePath, item.label + item.note);
+                }
+            });
+        }
+
+        function createCard(p, l) {
+            const div = document.createElement('div');
+            const target = currentMode === 'voc' ? 'voclist+.html' : 'quizzer.html';
+            const ext = currentMode === 'voc' ? '.v' : '.q';
+            div.className = "item-card block p-5 rounded-2xl font-bold flex justify-between items-center cursor-pointer hover:opacity-90 transition";
+            div.onclick = () => window.location.href = `${target}?data=${p}${ext}`;
+            div.innerHTML = `<span class="text-[1.05rem]">${l}</span> <span class="text-[0.65rem] opacity-50 font-bold tracking-tighter">${currentMode === 'voc' ? 'STUDY' : 'START'} →</span>`;
+            container.appendChild(div);
+        }
+
+        stageS.onchange = () => { updateDropdowns(); render(); };
+        termS.onchange = render; 
+        gradeS.onchange = render;
+    </script>
+</body>
+</html>

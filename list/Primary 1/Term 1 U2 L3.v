@@ -1,0 +1,10 @@
+*Colors
+green,أخضر
+blue,أزرق
+yellow,أصفر
+red,أحمر
+*Shapes
+square,مربع
+circle,دائرة
+triangle,مثلث
+rectangle,مستطيل

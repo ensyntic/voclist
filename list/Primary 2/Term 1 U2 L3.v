@@ -1,0 +1,20 @@
+*Vocabulary
+one,واحد
+two,اثنان
+three,ثلاثة
+four,أربعة
+five,خمسة
+six,ستة
+seven,سبعة
+eight,ثمانية
+nine,تسعة
+ten,عشرة
+twenty,عشرون
+thirty,ثلاثون
+forty,أربعون
+fifty,خمسون
+sixty,ستون
+seventy,سبعون
+eighty,ثمانون
+ninety,تسعون
+one hundred,مائة
