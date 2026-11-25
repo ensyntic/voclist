@@ -262,7 +262,7 @@
             offlineBusy = true;
             try {
                 label.textContent = '0%';
-                const getText = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u); return r.text(); };
+                const getText = async u => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(u); return r.text(); };
                 const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('share.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('voclist+.html')]);
                 const toDataUrl = blob => new Promise(res => { const fr = new FileReader(); fr.onload = () => res(fr.result); fr.readAsDataURL(blob); });
                 let fontCss = '';
@@ -318,8 +318,7 @@
                 html = swap(html, "fetch('voclist.txt')", 'Promise.resolve(new Response(OFFLINE.txt))');
                 html = swap(html, 'window.location.href = `voclist+.html?data=${basePath}.v`', 'openLesson(basePath)');
                 html = swap(html, '</head>', '<script>var OFFLINE=' + JSON.stringify(offline).replace(/</g, '\\u003c') + ';<\/script></head>');
-                const study = `<div id="study" class="hidden p-4">
-<div class="max-w-2xl mx-auto"><button class="item-card p-3 rounded-xl font-bold mb-4" onclick="closeLesson()">← BACK</button></div>
+                const study = `<div id="study" class="hidden">
 <div id="vocabulary-list" class="max-w-2xl mx-auto"></div></div>
 <script>
 function openLesson(basePath) {
@@ -360,12 +359,18 @@ function openLesson(basePath) {
     });
     document.querySelector('body > .max-w-2xl').classList.add('hidden');
     document.getElementById('study').classList.remove('hidden');
+    document.body.classList.replace('p-6', 'p-4');
+    document.querySelector('meta[name=viewport]').content = 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0';
+    if (location.hash !== '#lesson') location.hash = 'lesson';
     window.scrollTo(0, 0);
 }
 function closeLesson() {
     document.getElementById('study').classList.add('hidden');
     document.querySelector('body > .max-w-2xl').classList.remove('hidden');
+    document.body.classList.replace('p-4', 'p-6');
+    document.querySelector('meta[name=viewport]').content = 'width=device-width, initial-scale=1.0';
 }
+window.addEventListener('hashchange', () => { if (location.hash !== '#lesson') closeLesson(); });
 <\/script>
 `;
                 const bi = html.lastIndexOf('</body>');
