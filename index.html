@@ -41,7 +41,7 @@
         </div>
         
         <div class="glass p-6 mb-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <select id="stage" class="p-3 rounded-xl outline-none">
                     <option value="ALL">All Stages</option>
                 </select>
@@ -51,6 +51,9 @@
                 <select id="grade" class="p-3 rounded-xl outline-none">
                     <option value="ALL">All Grades</option>
                 </select>
+                <button id="shareBtn" onclick="shareSelection()" class="p-3 rounded-xl bg-[#075CE6] text-white font-bold hover:opacity-90 transition flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>SHARE
+                </button>
             </div>
         </div>
         <div id="container" class="space-y-3"></div>
@@ -96,6 +99,7 @@
             currentMode = mode;
             welcome.classList.add('hidden');
             portal.classList.remove('hidden');
+            document.getElementById('shareBtn').classList.toggle('hidden', mode !== 'voc');
             title.innerHTML = mode === 'voc' ? 'VOC<span style="color:var(--blue)">LIST</span>' : 'QUIZ<span style="color:var(--blue)">ZER</span>';
             const fileName = mode === 'voc' ? 'voclist.txt' : 'quizzer.txt';
             try {
@@ -240,9 +244,25 @@
             container.appendChild(div);
         }
 
+        function shareSelection() {
+            const params = new URLSearchParams();
+            params.set('stage', stageS.value);
+            params.set('grade', gradeS.value);
+            params.set('term', termS.value);
+            const url = location.href.substring(0, location.href.lastIndexOf('/') + 1) + 'share.html?' + params.toString();
+            if (navigator.share) {
+                navigator.share({ title: 'VOCLIST', url: url }).catch(() => {});
+            } else if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(url).then(() => alert('Link copied to clipboard.'));
+            } else {
+                prompt('Copy this link:', url);
+            }
+        }
+
         stageS.onchange = () => { updateDropdowns(); render(); };
         termS.onchange = render; 
         gradeS.onchange = render;
     </script>
 </body>
 </html>
+
