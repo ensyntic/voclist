@@ -80,8 +80,8 @@ views,مشاهدات
 viral,منتشر بكثرة/فيروسى
 virality,انتشار واسع
 *Phrases, Expressions & Idioms
-be driven by emotion,مدفوعًا بالعاطفة
-be shared across continents,مُشارَك عبر القارات
+(be) driven by emotion,مدفوعًا بالعاطفة
+(be) shared across continents,مُشارَك عبر القارات
 go viral,ينتشر انتشارًا واسعًا
 have the opportunity,تتاح له الفرصة
 have no real relationship to,لا تربطه علاقة حقيقية بـ
@@ -91,5 +91,6 @@ advocate for,يدعو إلى/يدافع عن
 care about,يهتم بـ
 consequences for,عواقب لـ
 distinguish between,يميز بين
-solution to/for,حل لـ/لـ
+solution to,حل لـ/لـ
+solution for,حل لـ/لـ
 spread of,انتشار لـ

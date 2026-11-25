@@ -28,7 +28,8 @@ war,حرب
 come up with,يتوصل إلى/يبتكر
 honor with,يكرّم ... بـ
 hope for,يأمل فى
-make/have an impact on,يصنع/له تأثير على
+make an impact on,يصنع/له تأثير على
+have an impact on,يصنع/له تأثير على
 in time,فى الوقت المناسب
 miss the deadline,يفوّت الموعد النهائى
 Order of the Sinai Star,وسام نجمة سينا

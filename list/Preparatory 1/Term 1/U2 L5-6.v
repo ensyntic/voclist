@@ -10,7 +10,8 @@ pronunciation,نطق
 simply,ببساطة
 waste,يهدر/يضيع,wasted,,wasted
 *Language Expressions and Prepositions
-at home/school,فى المنزل/المدرسة
+at home,فى المنزل/المدرسة
+at school,فى المنزل/المدرسة
 at the front,فى المقدمة/الأمام
 at the same time,فى نفس الوقت
 in English,باللغة الإنجليزية

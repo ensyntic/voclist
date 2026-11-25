@@ -19,8 +19,10 @@ explore,يستكشف,explored
 love,يحب,loved
 travel,يسافر,traveled
 take,يأخذ,took
-am/is,يكون,was
-have/has,لديه/يمتلك,had
+am,يكون,was
+is,يكون,was
+have,لديه/يمتلك,had
+has,لديه/يمتلك,had
 *Phonics
 duck,بطة
 sock,جورب

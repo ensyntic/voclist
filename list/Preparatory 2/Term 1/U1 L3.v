@@ -18,7 +18,8 @@ unite,يوحد/يجمع,united,,united
 care about,يهتم/يعتنى بـ
 from till now,من ... حتى الآن
 on YouTube,على اليوتيوب
-play online/board games,يلعب ألعابًا عبر الإنترنت/ألعاب الطاولة
+play online games,يلعب ألعابًا عبر الإنترنت/ألعاب الطاولة
+play board games,يلعب ألعابًا عبر الإنترنت/ألعاب الطاولة
 popular with,شائع/محبوب لدى
 share thoughts,يشارك الأفكار
 show feelings,يظهر المشاعر

@@ -22,7 +22,8 @@ smile,يبتسم,smiled,,smiled
 true,حقيقى
 *Language Expressions and Prepositions
 give his life,يضحى بحياته
-go on vacation/a trip,يذهب فى عطلة/رحلة
+go on vacation,يذهب فى عطلة/رحلة
+go on a trip,يذهب فى عطلة/رحلة
 keep safe,يُبقى ... آمنًا
 keep going,يواصل/يستمر
 kind to,طيب مع/عطوف على

@@ -13,4 +13,5 @@ It's no use,لا فائدة من
 It's worth,يستحق
 succeed in,ينجح فى
 there is no point in,لا فائدة من
-What/How about,ما رأيك؟ اقتراح
+What about,ما رأيك؟ اقتراح
+How about,ما رأيك؟ اقتراح

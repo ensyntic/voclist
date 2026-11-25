@@ -1,6 +1,8 @@
 *Vocabulary
-father/dad,أب
-mother/mom,أم
+father,أب
+dad,أب
+mother,أم
+mom,أم
 sister,أخت
 brother,أخ
 grandmother,جدة

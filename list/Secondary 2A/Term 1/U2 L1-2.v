@@ -79,7 +79,8 @@ connected to,متصلة بـ
 prepare for,يعد لـ
 have access to,لديه تصريح لـ
 make your own choices,يصنع اختياراته بنفسه
-give a talk/speech,يلقى حديثًا
+give a talk,يلقى حديثًا
+give a speech,يلقى حديثًا
 struggle with,يكافح مع
 work with,يعمل مع
 dream of,يحلم بـ/يتمنى
@@ -88,7 +89,9 @@ for sale,للبيع
 peer-to-peer platform,منصة تفاعلية بين الأشخاص الطلاب
 think outside the box,يفكر خارج الصندوق تفكير غير معتاد
 food waste,بقايا الطعام
-expert in/on/at,خبير فى
+expert in,خبير فى
+expert on,خبير فى
+expert at,خبير فى
 learn from,يتعلم من
 lie in,يكمن فى
 aim to,يهدف إلى

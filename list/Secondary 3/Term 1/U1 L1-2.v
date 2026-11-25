@@ -7,7 +7,7 @@ chaos,فوضى
 chest,صدر
 collapse,انهيار/ينهار,collapsed,,collapsed
 consciousness,وعي/ضمير
-CPR cardiopulmonary resuscitation,إنعاش قلبي رئوي
+CPR (cardiopulmonary resuscitation),إنعاش قلبي رئوي
 emergency,طوارئ
 grab,يمسك بقوة,grabbed,,grabbed
 heartbreaking,محزن/مفجع
@@ -93,7 +93,7 @@ witness,شاهد/يشهد,witnessed,,witnessed
 wrist,معصم اليد
 *Phrases, Expressions & Idioms
 a set period of time,فترة زمنية محددة
-be rushed in,يُدفع للداخل
+(be) rushed in,يُدفع للداخل
 call for an ambulance,يتصل بالإسعاف
 give emergency care,يُقدم الرعاية الطارئة
 go the extra mile,يبذل جهدًا إضافيًا

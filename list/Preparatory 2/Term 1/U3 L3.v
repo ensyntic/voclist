@@ -20,13 +20,16 @@ reduce,يقلل,reduced,,reduced
 traffic,حركة المرور/مرور
 wait,ينتظر,waited,,waited
 *Language Expressions & Prepositions
-build roads/bridges,يبنى طرقًا/كبارى
+build roads,يبنى طرقًا/كبارى
+build bridges,يبنى طرقًا/كبارى
 get blocked,يُغلق/يُسد/يُحجز
 get stuck,يعلق/يتعطل
 go through,يمر عبر
 in the future,فى المستقبل
 late for,متأخر عن
-make a flyover/tunnel,يبنى كوبريًا علويًا/نفقًا
-on streets/highways,فى الشوارع/الطرق السريعة
+make a flyover,يبنى كوبريًا علويًا/نفقًا
+make a tunnel,يبنى كوبريًا علويًا/نفقًا
+on streets,فى الشوارع/الطرق السريعة
+on highways,فى الشوارع/الطرق السريعة
 pass over,يمر فوق
 run on,يسير على

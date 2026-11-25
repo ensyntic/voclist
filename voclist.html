@@ -141,7 +141,7 @@
                 const list = document.getElementById('vocabulary-list');
                 
                 const pronounce = (w) => {
-                    let n = w.toLowerCase().replace(/[^a-z0-9.]/g,'_');
+                    let n = w.toLowerCase().replace(/[()]/g,'').replace(/[^a-z0-9.]/g,'_');
                     new Audio(`audio/${n}.mp3`).play().catch(()=>{});
                 };
 

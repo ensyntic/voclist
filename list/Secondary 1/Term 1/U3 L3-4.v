@@ -80,4 +80,5 @@ combine with,يدمج ... مع
 fight back,يقاوم
 fight over,يتقاتل على
 reflect on,يفكر/يتأمل فى
-spread through/across,ينتشر عبر/خلال
+spread through,ينتشر عبر/خلال
+spread across,ينتشر عبر/خلال

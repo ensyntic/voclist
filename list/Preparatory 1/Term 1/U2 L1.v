@@ -26,8 +26,11 @@ away from,بعيدًا عن
 build a model,يبنى نموذجًا
 do activities,يؤدى أنشطة
 do experiments,يقوم بعمل تجارب
-learn/suit best,يتعلم/يناسب أكثر
-make a map/chart,يعد خريطة/مخططًا
-say/repeat out loud,يقول/يكرر بصوت عالٍ
+learn best,يتعلم/يناسب أكثر
+suit best,يتعلم/يناسب أكثر
+make a map,يعد خريطة/مخططًا
+make a chart,يعد خريطة/مخططًا
+say out loud,يقول/يكرر بصوت عالٍ
+repeat out loud,يقول/يكرر بصوت عالٍ
 talk about,يتكلم عن
 talk with,يتحدث مع

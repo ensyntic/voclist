@@ -65,7 +65,7 @@ witness,شاهد/يشهد,witnessed,,witnessed
 *Phrases, Expressions & Idioms
 around the world,حول العالم
 at the very moment,فى اللحظة الراهنة
-be on site,يتواجد فى الموقع
+(be) on site,يتواجد فى الموقع
 have no disadvantages,ليس لديه سلبيات
 keep updated,يبقى ... على اطلاع دائم
 record the events as they happen,يسجل الأحداث فور وقوعها

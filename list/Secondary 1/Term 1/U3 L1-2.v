@@ -63,8 +63,10 @@ victim,ضحية
 warning,تحذيري
 workplace,مكان عمل
 *Phrases, Expressions & Idioms
-apply/put pressure on,يمارس/يضع ضغطًا على
-build/make strong friendships,يبني صداقات قوية
+apply pressure on,يمارس/يضع ضغطًا على
+put pressure on,يمارس/يضع ضغطًا على
+build strong friendships,يبني صداقات قوية
+make strong friendships,يبني صداقات قوية
 face-to-face interactions,التفاعلات وجهًا لوجه – التفاعلات المباشرة
 give a truthful answer,يعطى إجابة صادقة
 in fact,فى الواقع

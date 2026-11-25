@@ -16,7 +16,7 @@ all over,فى جميع أنحاء
 connect with,يتواصل مع/يرتبط بـ
 connected with,مرتبط/متصل بـ
 get hard,يصبح صعبًا
-in a/an way,بطريقة ...
+in a way,بطريقة ...
 make sense,يبدو منطقيًا/عقلانيًا
 passion for,شغف بـ
 touch the hearts of,يلمس ... قلوب

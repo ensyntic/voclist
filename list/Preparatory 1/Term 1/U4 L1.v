@@ -20,10 +20,13 @@ uncomfortable,غير مرتاح/مريح
 act with care,يتصرف بحذر
 close to,قريب من
 excited about,متحمس لـ/فرح بـ
-in the end/future,فى النهاية/المستقبل
+in the end,فى النهاية/المستقبل
+in the future,فى النهاية/المستقبل
 promise to,يَعِدُ بـ
-take/make a decision,يتخذ قرارًا
+take a decision,يتخذ قرارًا
+make a decision,يتخذ قرارًا
 make a choice,يحدد اختياره
 make a mistake,يرتكب خطأً
-think about/of,يفكر فى
+think about,يفكر فى
+think of,يفكر فى
 to his surprise,لدهشته

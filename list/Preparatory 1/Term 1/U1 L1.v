@@ -35,7 +35,9 @@ do homework,يؤدى واجبًا منزليًا
 during the day,أثناء النهار
 help with,يساعد فى
 in the evening,فى المساء
-on a screen/laptop/tablet,على شاشة/كمبيوتر محمول/جهاز لوحى
+on a screen,على شاشة/كمبيوتر محمول/جهاز لوحى
+on a laptop,على شاشة/كمبيوتر محمول/جهاز لوحى
+on a tablet,على شاشة/كمبيوتر محمول/جهاز لوحى
 per minute,فى الدقيقة
 share with,يشارك مع
 take a break,يأخذ استراحة

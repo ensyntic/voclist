@@ -15,7 +15,8 @@ stuff,أشياء/مواد
 test,يختبر/اختبر,tested,,tested
 patience,صبر
 *Language Expressions & Prepositions
-build a model/version,يبنى نموذجًا/نسخة
+build a model,يبنى نموذجًا/نسخة
+build a version,يبنى نموذجًا/نسخة
 come to your mind,تخطر على بالك
 make a plan,يضع خطة
 make a difference,يُحدث فرقًا

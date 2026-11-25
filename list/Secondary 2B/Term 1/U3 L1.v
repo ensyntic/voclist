@@ -81,7 +81,7 @@ symbol,رمز
 timeline,جدول زمنى
 value,قيمة
 *Phrases, Expressions & Idioms
-be struck by,تتم مفاجأته/يُصدم بـ
+(be) struck by,تتم مفاجأته/يُصدم بـ
 bring to mind,يجلب إلى الذهن/تذكر بـ...
 connect with the past,يرتبط بالماضى
 deliver a presentation,يقدم عرضًا تقديميًا

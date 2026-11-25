@@ -53,7 +53,8 @@ unique,فريد من نوعه/متفرد
 unplug,يسحب/يفصل القابس الفيشة,unplugged,,unplugged
 *Phrases, Expressions & Idioms
 a greener future,مستقبل أكثر خضرة/مستقبل أكثر حفاظًا على البيئة
-do/conduct a survey,يُجرى استطلاعًا
+do a survey,يُجرى استطلاعًا
+conduct a survey,يُجرى استطلاعًا
 do research,يُجرى بحثًا
 for the first time,لأول مرة
 free time,وقت الفراغ

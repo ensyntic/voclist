@@ -81,7 +81,8 @@ show as offline,يظهر كغير متصل
 connect with,يربط ... بـ
 connected to,متصل بـ
 depend on,يعتمد على
-different to/from,مختلف عن
+different to,مختلف عن
+different from,مختلف عن
 enhance with,يعزز بـ
 import from,يستورد من
 rely on,يعتمد على

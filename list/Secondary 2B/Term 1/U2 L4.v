@@ -66,7 +66,8 @@ take breaks,يأخذ فترات راحة
 *Prepositions
 come from,يأتى من
 move forward,يتقدم للأمام
-think of/about,يفكر فى/بشأن
+think of,يفكر فى/بشأن
+think about,يفكر فى/بشأن
 move away,يبعد ... عن
 wake up,يستيقظ
 laugh at,يضحك على/يسخر من

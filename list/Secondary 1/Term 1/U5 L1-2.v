@@ -75,6 +75,7 @@ open the door to,يفتح مجالًا أمام
 participate in,يشارك فى
 perspective on,وجهة نظر عن
 promote respect,يعزز الاحترام
-remain/stay motivated,يبقى مُحفَّزًا
+remain motivated,يبقى مُحفَّزًا
+stay motivated,يبقى مُحفَّزًا
 return to,يعود إلى
 speak to,يتحدث إلى

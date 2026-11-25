@@ -53,7 +53,7 @@ transform,يحول,transformed,,transformed
 transition,انتقال/تحول
 wind turbine,توربينات الرياح
 *Phrases, Expressions & Idioms
-be mentioned as,يُذكر على أنه
+(be) mentioned as,يُذكر على أنه
 cost drop,انخفاض التكلفة
 create opportunities or challenges,يخلق فرصًا أو تحديات
 give for free,يقدم ... مجانًا

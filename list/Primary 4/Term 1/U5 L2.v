@@ -22,7 +22,8 @@ laughs,ضحكات
 characters,شخصيات
 *Expressions and Phrases
 get good marks,يحصل على درجات جيدة
-take photos/pictures,يلتقط صورًا
+take photos,يلتقط صورًا
+take pictures,يلتقط صورًا
 do shows,يقدم عروضًا
 do well,يقوم بعمل جيد!
 tell stories,يروى قصصًا

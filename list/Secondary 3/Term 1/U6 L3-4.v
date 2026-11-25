@@ -58,8 +58,10 @@ throughout,خلال/عبر
 unforgettable,لا ينسى
 wonder,يتعجب/يتساءل,wondered,,wondered
 *Phrases, Expressions & Idioms
-a must-see movie/series/program,لا بد من رؤيته/يستحق المشاهدة
-be worth,يستحقه
+a must-see movie,لا بد من رؤيته/يستحق المشاهدة
+a must-see series,لا بد من رؤيته/يستحق المشاهدة
+a must-see program,لا بد من رؤيته/يستحق المشاهدة
+(be) worth,يستحقه
 boost confidence,يعزز الثقة
 make an effort,يبذل جهدًا
 not recommend it to,لا ينصح به لـ ...
@@ -68,16 +70,22 @@ reach a compromise,يتوصل إلى حل وسط
 stay in touch,يبقى على اتصال
 *Prepositions
 agree with,يتفق مع
-ask about/for,يسأل عن/يطلب
+ask about,يسأل عن/يطلب
+ask for,يسأل عن/يطلب
 beneficial for,مفيد لـ
 benefit of,فائدة الـ
-crowded/packed with,مزدحم بـ
+crowded with,مزدحم بـ
+packed with,مزدحم بـ
 deal with,يتعامل مع
-disappointed with/in,خائب الأمل من/في
+disappointed with,خائب الأمل من/في
+disappointed in,خائب الأمل من/في
 harmful to,ضار بـ
 impact on,أثر على
 open to,منفتح على
 participate in,يشارك في
 suffer from,يعاني من
-talk/speak to/with,يتحدث إلى/مع
+talk to,يتحدث إلى/مع
+talk with,يتحدث إلى/مع
+speak to,يتحدث إلى/مع
+speak with,يتحدث إلى/مع
 wait for,ينتظر شخصًا - شيئًا

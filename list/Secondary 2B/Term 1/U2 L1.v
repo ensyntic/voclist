@@ -54,7 +54,7 @@ streaming,بث مباشر
 video gaming,ألعاب الفيديو
 worth,قيمة/أهمية
 *Phrases, Expressions & Idioms
-be in control of,يتحكّم فى
+(be) in control of,يتحكّم فى
 develop a wrong sense of,يطوّر شعورًا خاطئًا تجاه
 do well in,يحسن الأداء فى
 find a healthy balance,يحصل على توازن صحى

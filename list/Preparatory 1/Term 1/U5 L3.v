@@ -14,7 +14,8 @@ patient,مريض
 practice,يتدرب/يمارس,practiced,,practiced
 smile,يبتسم,smiled,,smiled
 *Language Expressions and Prepositions
-at school/university,فى المدرسة/الجامعة
+at school,فى المدرسة/الجامعة
+at university,فى المدرسة/الجامعة
 come true,يتحقق/يصبح حقيقة
 feel better,يشعر بتحسن
 hope for,يأمل فى

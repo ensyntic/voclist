@@ -62,8 +62,8 @@ variety,تنوع
 view,وجهة نظر/منظر/يرى/يعرض,viewed,,viewed
 workshop,ورشة عمل
 *Phrases, Expressions & Idioms
-be mainly designed for,مُصمَّم أساسًا لـ
-be recognized as,يُعرف على أنه
+(be) mainly designed for,مُصمَّم أساسًا لـ
+(be) recognized as,يُعرف على أنه
 for many years to come,لسنوات عديدة قادمة
 give an impression about,يعطى انطباعًا عن
 a hands-on way,طريقة عملية

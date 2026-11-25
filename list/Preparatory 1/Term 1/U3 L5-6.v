@@ -22,7 +22,8 @@ world champion,بطل العالم
 young,شاب/صغير السن
 *Language Expressions and Prepositions
 at 17,فى عمر السابعة عشرة
-care about/for,يهتم/يعتنى بـ
+care about,يهتم/يعتنى بـ
+care for,يهتم/يعتنى بـ
 dream of,يحلم بـ
 follow dreams,يتبع أحلامه
 give up on,يتخلى عن

@@ -16,16 +16,19 @@ focus,يركز,focused,,focused
 headache,صداع
 limit,يحد من/يقلل,limited,,limited
 rest,يستريح/راحة,rested,,rested
-teenager/teen,مراهق
+teenager,مراهق
+teen,مراهق
 tired eye,عين متعبة
 total,إجمالى/كلى
 trouble sleeping,اضطرابات النوم
 *Language Expressions and Prepositions
 away from,بعيدا عن
-do schoolwork/activities,يؤدى واجبا مدرسيا/أنشطة
+do schoolwork,يؤدى واجبا مدرسيا/أنشطة
+do activities,يؤدى واجبا مدرسيا/أنشطة
 helpful for,مفيد لـ
 on screen,على الشاشة
 on the weekend,فى عطلة نهاية الأسبوع
 related to,متعلق بـ/مرتبط بـ
 take breaks,يأخذ فترات راحة
-watch movies/videos,يشاهد أفلام/مقاطع فيديو
+watch movies,يشاهد أفلام/مقاطع فيديو
+watch videos,يشاهد أفلام/مقاطع فيديو

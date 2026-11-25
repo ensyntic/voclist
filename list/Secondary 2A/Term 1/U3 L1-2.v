@@ -89,8 +89,11 @@ unique,فريد/مميز
 vaccination,تطعيم
 *Expressions, Phrases & Prepositions
 be built on,مبنى على
-do/cause harm to,يُلحق ضررًا بـ
-aim at/to/for,يهدف إلى
+do harm to,يُلحق ضررًا بـ
+cause harm to,يُلحق ضررًا بـ
+aim at,يهدف إلى
+aim to,يهدف إلى
+aim for,يهدف إلى
 aspects of,جوانب من
 benefit from,يستفيد من
 make the most of,يستفيد أقصى استفادة

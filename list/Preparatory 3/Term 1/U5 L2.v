@@ -23,4 +23,5 @@ build a prototype,ينشئ نموذج أولى
 come up with new ideas,يأتى بأفكار جديدة
 in just five days,خلال ٥ أيام فقط
 It sounds impossible,يبدو مستحيلا
-brainstorm/test ideas,يتبادل/يختبر الأفكار
+brainstorm ideas,يتبادل/يختبر الأفكار
+test ideas,يتبادل/يختبر الأفكار

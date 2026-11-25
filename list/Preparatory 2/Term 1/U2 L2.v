@@ -26,9 +26,11 @@ upload,يرفع إلى الإنترنت,uploaded,,uploaded
 widely,على نطاق واسع
 *Language Expressions & Prepositions
 control privacy,يتحكم في الخصوصية
-create a password/trail,ينشئ كلمة مرور/أثرًا
+create a password,ينشئ كلمة مرور/أثرًا
+create a trail,ينشئ كلمة مرور/أثرًا
 follow rules,يتبع القواعد
-keep private/secret,يحافظ على ... خاص/سري
+keep private,يحافظ على ... خاص/سري
+keep secret,يحافظ على ... خاص/سري
 leave a digital footprint,يترك بصمة رقمية على الإنترنت
 leave behind,يترك خلفه
 on social media,على مواقع التواصل الاجتماعي

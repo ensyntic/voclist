@@ -21,7 +21,8 @@ jewelry,مجوهرات
 *Expressions and Phrases
 talk about,يتحدث عن
 work for,يعمل لدى/ يعمل فى
-is/are used to inf,يُستخدم لـ
+is used to inf,يُستخدم لـ
+are used to inf,يُستخدم لـ
 many kinds of,أنواع كثيرة من
 along the Nile,على طول نهر النيل
 as well,أيضًا / كذلك

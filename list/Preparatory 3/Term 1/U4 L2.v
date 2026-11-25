@@ -25,10 +25,12 @@ technology,تكنولوجيا
 waste,يهدر/يضيع,wasted,,wasted
 wisely,بحكمة
 *Language Expressions and Prepositions
-build habits/roads,يبنى عادات/طرقا
+build habits,يبنى عادات/طرقا
+build roads,يبنى عادات/طرقا
 follow safety rules,يتبع قواعد السلامة
 get ready,يستعد/يجهز نفسه
-lose energy/focus,يفقد الطاقة/التركيز
+lose energy,يفقد الطاقة/التركيز
+lose focus,يفقد الطاقة/التركيز
 make noise,يحدث ضوضاء/يصدر صوتا
 manage screen time,يدير وقت الشاشة
 move forward,يتقدم

@@ -19,7 +19,8 @@ do a duty,يؤدى واجبًا
 Exactly,بالضبط!
 Great idea,فكرة رائعة!
 I see,أدرك ذلك
-care for/about,يعتنى بـ
+care for,يعتنى بـ
+care about,يعتنى بـ
 I think so,أعتقد ذلك
 make a poster,يصنع/يعد ملصقًا
 make an impact,يُحدث تأثيرًا

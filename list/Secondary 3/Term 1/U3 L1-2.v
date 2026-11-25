@@ -110,4 +110,5 @@ responsible for,مسئول عن
 result of,نتيجة لـ
 result in,ينتج عنه
 return to,يعود إلى
-solution to/for,حل لـ
+solution to,حل لـ
+solution for,حل لـ

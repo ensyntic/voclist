@@ -20,14 +20,16 @@ living,حى
 ocean,محيط
 quality,جودة
 terrible,فظيع/سيئ جدًا
-type/kind,نوع
+type,نوع
+kind,نوع
 waste,نفايات/مخلفات
 *Language Expressions and Prepositions
 depend on,يعتمد على
 impact on,تأثير على
 in danger,فى خطر
 participate in,يشارك فى
-on/at the beach,على/فى الشاطئ
+on the beach,على/فى الشاطئ
+at the beach,على/فى الشاطئ
 throw into,يرمى ... فى
 to start off,للبدء/فى البداية
 take action,يتخذ إجراء

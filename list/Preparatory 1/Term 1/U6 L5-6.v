@@ -12,5 +12,6 @@ build a world,يبنى عالمًا
 effect on,تأثير على
 follow instructions,يتبع التعليمات
 pick up,يلتقط/يجمع
-show care/honor,يُظهر العناية/الاحترام
+show care,يُظهر العناية/الاحترام
+show honor,يُظهر العناية/الاحترام
 take responsibility,يتحمّل المسئولية

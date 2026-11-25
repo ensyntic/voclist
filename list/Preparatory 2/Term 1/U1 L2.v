@@ -29,5 +29,6 @@ balance with,يوازن بين ... و ...
 connected to,مرتبط/متصل بـ
 different from,مختلف عن
 make sure,يتأكد من
-show hobbies/opinions,يُظهر الهوايات/الآراء
+show hobbies,يُظهر الهوايات/الآراء
+show opinions,يُظهر الهوايات/الآراء
 from a young age,منذ سنٍّ صغيرة

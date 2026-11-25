@@ -16,7 +16,8 @@ last,يستمر/يدوم,lasted,,lasted
 smart,ذكى/أنيق
 stamp,طابع
 super,جدًا
-type/kind,نوع
+type,نوع
+kind,نوع
 unsafe,غير آمن
 *Language Expressions & Prepositions
 build your online identity,يبني هويتك على الإنترنت

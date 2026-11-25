@@ -78,10 +78,12 @@ shape our minds,يشكل عقولنا
 stay united,نبقى متحدين
 step by step,خطوة بخطوة
 *Prepositions
-center of/for,مركز لـ
+center of,مركز لـ
+center for,مركز لـ
 connect to,يتصل/يرتبط بـ
 depend on,يعتمد على
-home to/for,موطن لـ/وطن لـ
+home to,موطن لـ/وطن لـ
+home for,موطن لـ/وطن لـ
 key to,مفتاح لـ
 passed down,متوارث/متناقل
 pick up,يلتقط/يستلم

@@ -81,8 +81,8 @@ warming,دفء/احترار
 wide-ranging,واسع النطاق
 wildfire,حرائق غابات
 *Phrases, Expressions & Idioms
-be at risk,يكون فى خطر/مهدد
-be known as,يُعرف بـ
+(be) at risk,يكون فى خطر/مهدد
+(be) known as,يُعرف بـ
 as a result of,نتيجة لـ/كنتيجة لـ
 at an alarming rate,بمعدل مقلق/بوتيرة مثيرة للقلق
 wide-ranging effects,تأثيرات واسعة النطاق

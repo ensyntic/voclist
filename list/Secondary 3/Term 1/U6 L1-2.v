@@ -84,11 +84,13 @@ sound great,يبدو رائعًا
 *Prepositions
 catch up on,يواكب/يتابع أخبار
 characterized by,متميز بـ
-embarrassed by/about,محرج من/بشأن
+embarrassed by,محرج من/بشأن
+embarrassed about,محرج من/بشأن
 forgive for,يسامح ... على
 hang out with,يخرج/يقضي وقتًا مع
 invest in,يستثمر في
 tend to,يميل إلى
-thankful/grateful for,ممتن/شاكر لـ
+thankful for,ممتن/شاكر لـ
+grateful for,ممتن/شاكر لـ
 unaware of,غير مدرك لـ
 upset about,منزعج من

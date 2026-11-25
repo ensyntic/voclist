@@ -22,6 +22,7 @@ laugh,يضحك
 say,يقول
 need,يحتاج
 reach,يصل
-has/have,لديه/يمتلك
+has,لديه/يمتلك
+have,لديه/يمتلك
 look,يبدو
 share,يشارك

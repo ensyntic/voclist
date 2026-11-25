@@ -56,7 +56,7 @@ youth,شباب
 *Phrases, Expressions & Idioms
 across the world,فى جميع أنحاء العالم
 at least,على الأقل
-be forced into,يجبر على
+(be) forced into,يجبر على
 conduct a survey,يجرى استطلاعا
 expand the range of,يوسع نطاق
 fall far short of,يصبح بعيدًا كل البعد عن
@@ -67,7 +67,8 @@ meet the recommended activity levels,يلتزم بمستويات النشاط ا
 stay active,يظل نشيطا
 try their best,يبذلون قصارى جهدهم
 *Prepositions
-argue for/against,يجادل لـ/ضد
+argue for,يجادل لـ/ضد
+argue against,يجادل لـ/ضد
 benefit from,يستفيد من
 benefits of,فوائد لـ
 challenge for,تحد لـ
