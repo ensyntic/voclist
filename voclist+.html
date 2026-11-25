@@ -61,7 +61,7 @@
                 
                 const pronounce = (w) => {
                     let n = w.toLowerCase().replace(/[^a-z0-9.]/g,'_');
-                    new Audio(`audio-mp3/${n}.mp3`).play().catch(()=>{});
+                    new Audio(`audio/${n}.mp3`).play().catch(()=>{});
                 };
 
                 lines.forEach(line => {

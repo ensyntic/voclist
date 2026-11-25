@@ -294,7 +294,7 @@
                     while (queue.length) {
                         const n = queue.pop();
                         try {
-                            const r = await fetch('audio-mp3/' + n + '.mp3');
+                            const r = await fetch('audio/' + n + '.mp3');
                             if (r.ok) {
                                 const b64 = await toB64(await r.blob());
                                 audioParts.push(new Blob(['<script type="text/plain" data-a="' + n + '">', b64, '<\/script>\n']));
