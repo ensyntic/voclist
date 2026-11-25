@@ -311,7 +311,7 @@
                 const offline = { q: 'stage=' + encodeURIComponent(stageS.value) + '&grade=' + encodeURIComponent(gradeS.value) + '&term=' + encodeURIComponent(termS.value), txt: items.map(i => i.basePath + '.v').join('\n'), v: vData };
                 const plusCss = (plusSrc.match(/<style>([\s\S]*?)<\/style>/) || ['', ''])[1];
                 let html = shareSrc;
-                html = swap(html, '<link rel="stylesheet" href="global.css">', '<style>' + fontCss + css.replace(/@import[^;]*;/g, '') + '</style><style>' + plusCss + '</style>');
+                html = swap(html, '<link rel="stylesheet" href="global.css">', '<style>' + fontCss + '</style><style>' + css.replace(/@import url\([^)]*\);/g, '') + '</style><style>' + plusCss + '</style>');
                 html = swap(html, '<script src="https://cdn.tailwindcss.com"><\/script>', '<script>' + safe(twJs) + '<\/script>');
                 html = swap(html, '<script src="main.js"><\/script>', '<script>' + safe(mainJs) + '<\/script>');
                 html = swap(html, 'new URLSearchParams(location.search)', 'new URLSearchParams(OFFLINE.q)');
