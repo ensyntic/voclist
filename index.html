@@ -264,6 +264,18 @@
                 label.textContent = '0%';
                 const getText = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u); return r.text(); };
                 const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('share.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('voclist+.html')]);
+                const toDataUrl = blob => new Promise(res => { const fr = new FileReader(); fr.onload = () => res(fr.result); fr.readAsDataURL(blob); });
+                let fontCss = '';
+                for (const imp of Array.from(css.matchAll(/@import url\(['"]?([^'")]+)['"]?\);/g))) {
+                    try {
+                        let fc = await getText(imp[1]);
+                        for (const u of Array.from(new Set(Array.from(fc.matchAll(/url\(['"]?(https?:[^'")]+)['"]?\)/g)).map(m => m[1])))) {
+                            const fr = await fetch(u);
+                            fc = fc.split(u).join(await toDataUrl(await fr.blob()));
+                        }
+                        fontCss += fc;
+                    } catch (e) {}
+                }
                 const vData = {};
                 const names = new Set();
                 for (const it of items) {
@@ -282,7 +294,7 @@
                     while (queue.length) {
                         const n = queue.pop();
                         try {
-                            const r = await fetch('audio/' + n + '.wav');
+                            const r = await fetch('audio-mp3/' + n + '.mp3');
                             if (r.ok) {
                                 const b64 = await toB64(await r.blob());
                                 audioParts.push(new Blob(['<script type="text/plain" data-a="' + n + '">', b64, '<\/script>\n']));
@@ -299,7 +311,7 @@
                 const offline = { q: 'stage=' + encodeURIComponent(stageS.value) + '&grade=' + encodeURIComponent(gradeS.value) + '&term=' + encodeURIComponent(termS.value), txt: items.map(i => i.basePath + '.v').join('\n'), v: vData };
                 const plusCss = (plusSrc.match(/<style>([\s\S]*?)<\/style>/) || ['', ''])[1];
                 let html = shareSrc;
-                html = swap(html, '<link rel="stylesheet" href="global.css">', '<style>' + css.replace(/@import[^;]*;/g, '') + '</style><style>' + plusCss + '</style>');
+                html = swap(html, '<link rel="stylesheet" href="global.css">', '<style>' + fontCss + css.replace(/@import[^;]*;/g, '') + '</style><style>' + plusCss + '</style>');
                 html = swap(html, '<script src="https://cdn.tailwindcss.com"><\/script>', '<script>' + safe(twJs) + '<\/script>');
                 html = swap(html, '<script src="main.js"><\/script>', '<script>' + safe(mainJs) + '<\/script>');
                 html = swap(html, 'new URLSearchParams(location.search)', 'new URLSearchParams(OFFLINE.q)');
@@ -318,7 +330,7 @@ function openLesson(basePath) {
     const pronounce = (w) => {
         let n = w.toLowerCase().replace(/[^a-z0-9.]/g, '_');
         const el = document.querySelector('script[data-a="' + n + '"]');
-        if (el) new Audio('data:audio/wav;base64,' + el.textContent).play().catch(() => {});
+        if (el) new Audio('data:audio/mpeg;base64,' + el.textContent).play().catch(() => {});
     };
     lines.forEach(line => {
         if (line.startsWith('*')) {
