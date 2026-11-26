@@ -1,0 +1,9 @@
+*Phonics
+rain,مطر
+train,قطار
+tail,ذيل
+play,يلعب
+hay,قش
+cake,كيك
+shake,يصافح
+gate,بوابة

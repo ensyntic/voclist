@@ -1,0 +1,10 @@
+*Phonics
+octopus,أخطبوط
+olive,زيتون
+ostrich,نعامة
+on,على
+fish,سمكة
+fox,ثعلب
+fork,شوكة
+fan,مروحة
+frog,ضفدعة
