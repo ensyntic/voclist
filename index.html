@@ -243,7 +243,7 @@
             const target = currentMode === 'voc' ? 'voclist+.html' : 'quizzer.html';
             const ext = currentMode === 'voc' ? '.v' : '.q';
             div.className = "item-card block p-5 rounded-2xl font-bold flex justify-between items-center cursor-pointer hover:opacity-90 transition";
-            div.onclick = () => window.location.href = `${target}?data=${p}${ext}`;
+            div.onclick = () => window.location.href = `${target}?data=${encodeURIComponent(p + ext)}`;
             div.innerHTML = `<span class="text-[1.05rem]">${l}</span> <span class="text-[0.65rem] opacity-50 font-bold tracking-tighter">${currentMode === 'voc' ? 'STUDY' : 'START'} →</span>`;
             container.appendChild(div);
         }
@@ -316,7 +316,7 @@
                 html = swap(html, '<script src="main.js"><\/script>', '<script>' + safe(mainJs) + '<\/script>');
                 html = swap(html, 'new URLSearchParams(location.search)', 'new URLSearchParams(OFFLINE.q)');
                 html = swap(html, "fetch('voclist.txt')", 'Promise.resolve(new Response(OFFLINE.txt))');
-                html = swap(html, 'window.location.href = `voclist+.html?data=${basePath}.v`', 'openLesson(basePath)');
+                html = swap(html, 'window.location.href = `voclist+.html?data=${encodeURIComponent(basePath + \'.v\')}`', 'openLesson(basePath)');
                 html = swap(html, '</head>', '<script>var OFFLINE=' + JSON.stringify(offline).replace(/</g, '\\u003c') + ';<\/script></head>');
                 const study = `<div id="study" class="hidden">
 <div id="vocabulary-list" class="max-w-2xl mx-auto"></div></div>
