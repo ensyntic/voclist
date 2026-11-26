@@ -128,6 +128,19 @@
             const params = new URLSearchParams(window.location.search);
             let path = params.get('data');
             if (!path) return;
+            const cm = path.match(/^([a-z0-9]{6})\.v$/i);
+            if (cm) {
+                try {
+                    const lt = await (await fetch('voclist.txt', { cache: 'no-store' })).text();
+                    const hit = lt.split('\n').map(l => l.trim()).find(l => l.toLowerCase().startsWith(cm[1].toLowerCase() + '|'));
+                    if (hit) {
+                        let rest = hit.substring(7);
+                        const em = rest.match(/(\.txt|\.json|\.v|\.q)/i);
+                        if (em) rest = rest.substring(0, em.index);
+                        path = rest.trim() + '.v';
+                    }
+                } catch (e) {}
+            }
             path = path.replace('.json', '.txt');
             if (path.startsWith('v/')) {
                 path = 'list/' + path.substring(2);
@@ -196,4 +209,4 @@
         });
     </script>
 </body>
-</html>
+</html>

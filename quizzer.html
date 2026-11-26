@@ -302,6 +302,19 @@
                 }
             };
 
+            const qm = (urlParams.get('data') || '').match(/^([a-z0-9]{6})\.q$/i);
+            if (qm) {
+                try {
+                    const lt = await (await fetch('quizzer.txt', { cache: 'no-store' })).text();
+                    const hit = lt.split('\n').map(l => l.trim()).find(l => l.toLowerCase().startsWith(qm[1].toLowerCase() + '|'));
+                    if (hit) {
+                        let rest = hit.substring(7);
+                        const em = rest.match(/(\.txt|\.json|\.v|\.q)/i);
+                        if (em) rest = rest.substring(0, em.index);
+                        dataPath = 'list/' + rest.trim() + '.q';
+                    }
+                } catch (e) {}
+            }
             try {
                 const res = await fetch(dataPath);
                 const text = await res.text();
