@@ -318,7 +318,7 @@
                 html = swap(html, '<script src="https://cdn.tailwindcss.com"><\/script>', '<script>' + safe(twJs) + '<\/script>');
                 html = swap(html, '<script src="main.js"><\/script>', '<script>' + safe(mainJs) + '<\/script>');
                 html = swap(html, 'new URLSearchParams(location.search)', 'new URLSearchParams(OFFLINE.q)');
-                html = swap(html, "fetch('voclist.txt')", 'Promise.resolve(new Response(OFFLINE.txt))');
+                html = swap(html, "fetch('voclist.txt', { cache: 'no-store' })", 'Promise.resolve(new Response(OFFLINE.txt))');
                 html = swap(html, 'window.location.href = `v+?data=${code ? code : encodeURIComponent(basePath + \'.v\')}`', 'openLesson(basePath)');
                 html = swap(html, '</head>', '<script>var OFFLINE=' + JSON.stringify(offline).replace(/</g, '\\u003c') + ';<\/script></head>');
                 const study = `<div id="study" class="hidden">
