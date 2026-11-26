@@ -1,6 +1,6 @@
 *Key Vocabulary
 aisle,ممر
-café,مقهى
+cafe,مقهى
 food stall,كشك طعام
 drinks,مشروبات
 vegetable soup,حساء الخضار / شوربة خضار

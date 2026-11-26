@@ -30,4 +30,4 @@ warning,تحذير
 focus on,يركز على
 *Definitions
 rescue,ينقذ
-sick / injured,مريض / مصاب
+sick,مريض / مصاب
