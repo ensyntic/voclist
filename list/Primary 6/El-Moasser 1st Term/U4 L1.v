@@ -1,4 +1,3 @@
-*Key vocabulary
 *Materials
 papyrus,ورق البردي
 bricks,طوب
