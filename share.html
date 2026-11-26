@@ -36,7 +36,7 @@
 
             let lines = [];
             try {
-                const res = await fetch('voclist.txt');
+                const res = await fetch('voclist.txt', { cache: 'no-store' });
                 if (res.ok) {
                     lines = (await res.text()).split('\n').map(l => l.trim()).filter(l => l.length > 0);
                 }

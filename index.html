@@ -107,7 +107,7 @@
             title.innerHTML = mode === 'voc' ? 'VOC<span style="color:var(--blue)">LIST</span>' : 'QUIZ<span style="color:var(--blue)">ZER</span>';
             const fileName = mode === 'voc' ? 'voclist.txt' : 'quizzer.txt';
             try {
-                const res = await fetch(fileName);
+                const res = await fetch(fileName, { cache: 'no-store' });
                 if (res.ok) {
                     const text = await res.text();
                     currentList = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
@@ -207,19 +207,19 @@
             });
 
             stageS.innerHTML = '<option value="ALL">All Stages</option>';
-            Array.from(stages).sort().forEach(s => {
+            Array.from(stages).forEach(s => {
                 stageS.innerHTML += `<option value="${s}">${s}</option>`;
             });
             stageS.value = stages.has(sVal) ? sVal : 'ALL';
 
             termS.innerHTML = '<option value="ALL">All Terms</option>';
-            Array.from(terms).sort().forEach(t => {
+            Array.from(terms).forEach(t => {
                 termS.innerHTML += `<option value="${t}">${t}</option>`;
             });
             termS.value = terms.has(tVal) ? tVal : 'ALL';
 
             gradeS.innerHTML = '<option value="ALL">All Grades</option>';
-            Array.from(grades).sort().forEach(g => {
+            Array.from(grades).forEach(g => {
                 gradeS.innerHTML += `<option value="${g}">${g}</option>`;
             });
             gradeS.value = grades.has(gVal) ? gVal : 'ALL';
