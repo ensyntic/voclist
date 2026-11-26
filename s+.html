@@ -30,9 +30,11 @@
 
         async function init() {
             const params = new URLSearchParams(location.search);
-            const stageP = params.get('stage') || 'ALL';
-            const gradeP = params.get('grade') || 'ALL';
-            const termP = params.get('term') || 'ALL';
+            let stageP = params.get('stage') || 'ALL';
+            let gradeP = params.get('grade') || 'ALL';
+            let termP = params.get('term') || 'ALL';
+            const dataP = params.get('data') || '';
+            const allTerms = /s(\+|%2B)(\.html)?$/i.test(location.pathname);
 
             let lines = [];
             try {
@@ -45,7 +47,7 @@
             const container = document.getElementById('container');
             let gradeLabel = '', termLabel = '', count = 0;
 
-            lines.forEach(line => {
+            for (const pass of (dataP ? [0, 1] : [1])) lines.forEach(line => {
                 let code = '';
                 if (line.charAt(6) === '|') { code = line.substring(0, 6); line = line.substring(7).trim(); }
                 let extMatch = line.match(/(\.txt|\.json|\.v|\.q)/i);
@@ -68,6 +70,10 @@
                     else term = l2.trim();
                 }
 
+                if (pass === 0) {
+                    if (code === dataP) { stageP = stage; gradeP = grade; termP = allTerms ? 'ALL' : term; }
+                    return;
+                }
                 let sMatch = (stageP === 'ALL' || stage === stageP);
                 let gMatch = (gradeP === 'ALL' || grade === gradeP);
                 let tMatch = (termP === 'ALL' || term === termP);

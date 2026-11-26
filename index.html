@@ -186,6 +186,7 @@
                     stage: stage,
                     term: term,
                     grade: grade,
+                    gradeName: parts[0] || grade,
                     label: label,
                     code: code
                 });
@@ -199,13 +200,13 @@
 
             let stages = new Set();
             let terms = new Set();
-            let grades = new Set();
+            let grades = new Map();
 
             parsedData.forEach(item => {
                 stages.add(item.stage);
                 if (sVal === 'ALL' || item.stage === sVal) {
                     if (item.term !== 'Other') terms.add(item.term);
-                    if (item.grade !== 'Other') grades.add(item.grade);
+                    if (sVal !== 'ALL' && item.grade !== 'Other') grades.set(item.grade, item.gradeName);
                 }
             });
 
@@ -222,9 +223,10 @@
             termS.value = terms.has(tVal) ? tVal : 'ALL';
 
             gradeS.innerHTML = '<option value="ALL">All Grades</option>';
-            Array.from(grades).forEach(g => {
-                gradeS.innerHTML += `<option value="${g}">${g}</option>`;
+            grades.forEach((name, g) => {
+                gradeS.innerHTML += `<option value="${g}">${name}</option>`;
             });
+            gradeS.disabled = sVal === 'ALL';
             gradeS.value = grades.has(gVal) ? gVal : 'ALL';
         }
 
@@ -266,7 +268,7 @@
             try {
                 label.textContent = '0%';
                 const getText = async u => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(u); return r.text(); };
-                const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('share.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('v+.html')]);
+                const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('s.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('v+.html')]);
                 const toDataUrl = blob => new Promise(res => { const fr = new FileReader(); fr.onload = () => res(fr.result); fr.readAsDataURL(blob); });
                 let fontCss = '';
                 for (const imp of Array.from(css.matchAll(/@import url\(['"]?([^'")]+)['"]?\);/g))) {
@@ -396,11 +398,13 @@ window.addEventListener('hashchange', () => { if (location.hash !== '#lesson') c
         }
 
         function shareSelection() {
-            const params = new URLSearchParams();
-            params.set('stage', stageS.value);
-            params.set('grade', gradeS.value);
-            params.set('term', termS.value);
-            const url = location.href.substring(0, location.href.lastIndexOf('/') + 1) + 'share.html?' + params.toString();
+            if (stageS.value === 'ALL' || gradeS.value === 'ALL') {
+                alert('Select a stage and a grade first.');
+                return;
+            }
+            const first = parsedData.find(i => i.stage === stageS.value && i.grade === gradeS.value && (termS.value === 'ALL' || i.term === termS.value) && i.code);
+            if (!first) { alert('No lessons found.'); return; }
+            const url = location.href.substring(0, location.href.lastIndexOf('/') + 1) + (termS.value === 'ALL' ? 's+' : 's') + '?data=' + first.code;
             if (navigator.share) {
                 navigator.share({ title: 'VOCLIST', url: url }).catch(() => {});
             } else if (navigator.clipboard && navigator.clipboard.writeText) {
