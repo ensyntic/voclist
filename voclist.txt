@@ -233,6 +233,27 @@ Primary 4/Gem 1st Term/U5 L1
 Primary 4/Gem 1st Term/U5 L2
 Primary 4/Gem 1st Term/U5 L3
 Primary 4/Gem 1st Term/U5 L4-5
+Primary 4/El-Moasser 1st Term/U1 L1
+Primary 4/El-Moasser 1st Term/U1 L2
+Primary 4/El-Moasser 1st Term/U1 L3
+Primary 4/El-Moasser 1st Term/U1 L4-5
+Primary 4/El-Moasser 1st Term/U2 L1
+Primary 4/El-Moasser 1st Term/U2 L2
+Primary 4/El-Moasser 1st Term/U2 L3
+Primary 4/El-Moasser 1st Term/U2 L4-5
+Primary 4/El-Moasser 1st Term/U3 L1
+Primary 4/El-Moasser 1st Term/U3 L2
+Primary 4/El-Moasser 1st Term/U3 L3
+Primary 4/El-Moasser 1st Term/U3 L4-5
+Primary 4/El-Moasser 1st Term/U4 L1
+Primary 4/El-Moasser 1st Term/U4 L2
+Primary 4/El-Moasser 1st Term/U4 L3
+Primary 4/El-Moasser 1st Term/U4 L4-5
+Primary 4/El-Moasser 1st Term/U5 L1
+Primary 4/El-Moasser 1st Term/U5 L2
+Primary 4/El-Moasser 1st Term/U5 L3
+Primary 4/El-Moasser 1st Term/U5 L4-5
+Primary 4/El-Moasser 1st Term/Story
 Primary 5/Gem 1st Term/U1 L1
 Primary 5/Gem 1st Term/U1 L2
 Primary 5/Gem 1st Term/U1 L3
