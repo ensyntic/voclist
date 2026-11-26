@@ -1,7 +1,7 @@
 *Vocabulary
 teamwork,عمل جماعى
 initiative,مبادرة
-research,يقوم بعمل بحث
+research.v,يقوم بعمل بحث
 proposal,اقتراح
 courage,شجاعة
 cafeteria,كافيتريا

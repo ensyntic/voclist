@@ -1,5 +1,5 @@
 *Key Vocabulary
-transfer,ينقل,transferred,,transferred
+transfer.v,ينقل,transferred,,transferred
 powerful,قوى / فعال
 reliable,يُعتمد عليه
 education,التعليم

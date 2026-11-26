@@ -1,6 +1,6 @@
 *Phonics
 hair,شعر
-house,منزل
+house.n,منزل
 horse,حصان
 hands,أيدي / يدين
 hat,قبعة

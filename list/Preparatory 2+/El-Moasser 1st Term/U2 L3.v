@@ -5,7 +5,8 @@ sleepy,يشعر بالنعاس
 balance,توازن
 manage,يدير / يتحكم,managed,,managed
 relaxation,راحة / استرخاء
-impact,يؤثر / تأثير,impacted,,impacted
+impact.v,يؤثر,impacted,,impacted
+impact.n,تأثير
 avoid,يتجنب,avoided,,avoided
 issues,مشكلات
 routine,روتين
@@ -22,7 +23,7 @@ alarm clock,منبه
 nature,الطبيعة
 alone,وحيد / بمفرده
 *Conjugation of Irregular Verbs
-lead,يقود / يؤدى,led,,led
+lead.v,يقود / يؤدى,led,,led
 overcome,يتغلب,overcame,,overcome
 deal,يتعامل,dealt,,dealt
 feel,يشعر,felt,,felt

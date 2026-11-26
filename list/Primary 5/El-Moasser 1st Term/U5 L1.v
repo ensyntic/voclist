@@ -4,7 +4,7 @@ fossil fuel,وقود حفري
 water,مياه
 soil,التربة
 minerals,معادن
-wind,رياح
+wind.n,رياح
 electricity,كهرباء
 natural gas,الغاز الطبيعي
 treasures,كنوز

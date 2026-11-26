@@ -1,6 +1,6 @@
 *Key Vocabulary
 achievable,قابل للتحقيق
-advocate,يدافع عن - يؤيد,advocated,,advocated
+advocate.v,يدافع عن - يؤيد,advocated,,advocated
 battery storage,تخزين البطاريات
 economic,اقتصادي
 hydroelectric,كهرومائي
@@ -20,7 +20,7 @@ baseload,حمل أساسي
 challenge,تحدٍّ
 commit,يلتزم,committed,,committed
 consistent,ثابت - منتظم
-convert,يحوّل,converted,,converted
+convert.v,يحوّل,converted,,converted
 cost drop,انخفاض في التكلفة
 currently,حاليا
 emission,انبعاث

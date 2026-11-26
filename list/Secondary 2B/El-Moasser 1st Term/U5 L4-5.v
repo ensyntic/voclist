@@ -12,7 +12,7 @@ specially,بشكل مميز
 specially positioned,في موقع ممتاز
 *Important Vocabulary
 activism,نشاط اجتماعي / بيئي
-advocate,يدافع عن - يؤيد,advocated,,advocated
+advocate.v,يدافع عن - يؤيد,advocated,,advocated
 annual,سنوي
 annotate,يعلّق على النص,annotated,,annotated
 audience,جمهور
@@ -23,7 +23,7 @@ collective action,عمل جماعي
 community,مجتمع محلي
 conference,مؤتمر
 coordinator,منسق
-delegate,مندوب - ممثل
+delegate.n,مندوب - ممثل
 environmental work,عمل بيئي
 generation,جيل
 install,يركب,installed,,installed

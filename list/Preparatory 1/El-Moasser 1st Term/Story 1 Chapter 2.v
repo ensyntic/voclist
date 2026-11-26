@@ -14,6 +14,6 @@ respect,يحترم / احترام,respected,,respected
 hesitate,يتردد,hesitated,,hesitated
 whisper,يهمس,whispered,,whispered
 cheer,يهتف / يهلل,cheered,,cheered
-refuse,يرفض,refused,,refused
+refuse.v,يرفض,refused,,refused
 clap,يُصفق,clapped,,clapped
 required,مطلوب

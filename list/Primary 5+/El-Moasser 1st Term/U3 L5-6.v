@@ -11,7 +11,7 @@ shelter,مأوى
 stem,ساق النبات
 *Extra vocabulary
 layer,طبقة
-separate,منفصل
+separate.adj,منفصل
 ship,سفينة
 alone,بمفرده
 lucky,محظوظ

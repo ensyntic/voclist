@@ -16,7 +16,7 @@ especially,على وجه الخصوص
 poster,ملصق
 solutions,حلول
 fail,يفشل / يرسب,failed,,failed
-perfect,مثالى / كامل
+perfect.adj,مثالى / كامل
 determined,عازم / مصمم
 trouble,مشكلة / ورطة
 recommendations,توصيات
@@ -27,7 +27,7 @@ crowd,حشد / جمهور
 race,سباق
 speed,سرعة
 fear,خوف
-upset,منضايق
+upset.adj,منضايق
 against,ضد / مقابل
 attitude,موقف / سلوك
 training,تدريب

@@ -34,7 +34,7 @@ affect,يؤثر على,affected
 solve,يحل,solved
 design,يصمم,designed
 float,يطفو,floated
-increase,يزيد,increased
+increase.v,يزيد,increased
 fly,يطير,flew
 build,يبنى / يشيد,built
 understand,يفهم,understood

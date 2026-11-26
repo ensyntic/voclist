@@ -2,7 +2,7 @@
 eat,يأكل
 fly,يطير
 run,يجري
-live,يعيش
+live.v,يعيش
 swim,يسبح
 yellow,لون أصفر
 brown,لون بني

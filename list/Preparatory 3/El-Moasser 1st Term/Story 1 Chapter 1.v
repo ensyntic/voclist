@@ -5,7 +5,7 @@ school playground,فناء المدرسة
 bring together,يجمع
 worth,يستحق
 empty,فارغ
-concrete,خرسانة
+concrete.n,خرسانة
 trash,قمامة
 care,رعاية / عناية
 bench,مقعد ثابت

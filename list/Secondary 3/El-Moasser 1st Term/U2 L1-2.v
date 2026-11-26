@@ -36,7 +36,7 @@ disappear,يختفي,disappeared,,disappeared
 enhance,يعزز - يحسن,enhanced,,enhanced
 fascinating,ساحر
 groundwork,أساس
-import,يستورد,imported,,imported
+import.v,يستورد,imported,,imported
 issue,مشكلة - قضية
 labor labour,عمل
 lay,يضع / يؤسس,laid,,laid

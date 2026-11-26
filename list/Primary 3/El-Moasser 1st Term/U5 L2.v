@@ -7,7 +7,7 @@ green plants,نباتات خضراء
 tail,ذيل
 problem,مشكلة
 solution,حل
-project,مشروع
+project.n,مشروع
 *Verbs
 wag,يهز ذيله / يحرك,wagged
 finish,ينتهي,finished

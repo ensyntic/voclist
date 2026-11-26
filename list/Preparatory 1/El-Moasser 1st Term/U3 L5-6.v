@@ -8,7 +8,8 @@ disease,مرض
 kidney,الكلى
 kidney transplant,زرع كلى
 methods,طرق / وسائل
-impact,يؤثر / تأثير,impacted,,impacted
+impact.v,يؤثر,impacted,,impacted
+impact.n,تأثير
 *Lesson 5
 face,يواجه / وجه,faced,,faced
 difference,اختلاف
@@ -18,7 +19,7 @@ leader,قائد
 *Lesson 6
 team,فريق
 facts,حقائق
-present,يقدم,presented,,presented
+present.v,يقدم,presented,,presented
 protect,يحمى,protected,,protected
 poster,ملصق إعلانى
 swimmer,سباح

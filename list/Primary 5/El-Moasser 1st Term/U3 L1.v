@@ -13,7 +13,7 @@ extreme,قاس / شديد
 warnings,تحذيرات
 wonders,عجائب
 mountain,جبل
-wind,رياح
+wind.n,رياح
 planet,كوكب
 temperature,درجة الحرارة
 stuck,عالق / محتجز

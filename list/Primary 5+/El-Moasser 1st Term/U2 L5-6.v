@@ -33,7 +33,7 @@ sparkle,يلمع بشدة,sparkled
 erupt,يثور,erupted
 hold,يمسك,held
 hit,يسقط على / يصطدم بـ,hit
-lead,يؤدى إلى / يقود إلى,led
+lead.v,يؤدى إلى / يقود إلى,led
 stand,يقف,stood
 *Important expressions and prepositions
 come out of,يخرج من

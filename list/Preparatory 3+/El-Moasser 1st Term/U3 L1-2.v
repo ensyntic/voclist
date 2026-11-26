@@ -1,5 +1,5 @@
 *Key Vocabulary
-content,راض / قانع
+content.adj,راض / قانع
 wealthy,ثري / غني
 skilled,ماهر
 wise,حكيم

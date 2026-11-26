@@ -5,7 +5,7 @@ bakery,مخبز
 market,سوق
 *Extra Vocabulary
 school,مدرسة
-house,منزل
+house.n,منزل
 fruit,فاكهة
 meat,لحم
 bread,خبز

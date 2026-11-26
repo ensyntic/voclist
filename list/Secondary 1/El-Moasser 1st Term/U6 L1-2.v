@@ -3,7 +3,7 @@ approach,نهج / طريقة
 association,جمعية / رابطة / اتحاد / صلة
 attitude,توجه / تفكير
 check in,متابعة قصيرة / مراجعة سريعة
-coordinate,ينسق,coordinated,,coordinated
+coordinate.v,ينسق,coordinated,,coordinated
 department,قسم
 footprint,بصمة / أثر
 generic,عام / غير مخصص
@@ -16,9 +16,9 @@ implementing,تنفيذ
 impressive,مثير للإعجاب
 independently,باستقلالية
 innovative,مبتكر
-polish,يصقل / يحسن,polished,,polished
+polish.v,يصقل / يحسن,polished,,polished
 polished,متقن / محسن / مصقول
-resume,سيرة ذاتية
+resume.n,سيرة ذاتية
 silo,عزلة داخل العمل / قسم منعزل
 stakeholder,صاحب مصلحة / طرف معني
 *Job related Vocabulary
@@ -53,7 +53,7 @@ involve,يتضمن / يشمل,involved,,involved
 keyword,كلمة مفتاحية
 land,يحصل على / يفوز ب,landed,,landed
 launch,إطلاق / يطلق,launched,,launched
-lead,يقود / قاد,led,,led
+lead.v,يقود / قاد,led,,led
 long term,طويل المدى
 maintain,يحافظ على,maintained,,maintained
 modify,يعدل,modified,,modified

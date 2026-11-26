@@ -38,7 +38,7 @@ hire,يوظف
 global warming,الاحتباس الحرارى
 vehicles,مركبات
 *Verbs
-present,يقدم,presented
+present.v,يقدم,presented
 remember,يتذكر,remembered
 complete,يكمل,completed
 train,يدرب,trained

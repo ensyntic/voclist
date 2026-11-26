@@ -15,7 +15,7 @@ bomb,قنبلة
 bullet,رصاصة
 career,مسار مهني / مهنة
 check,يتحقق من / يفحص,checked,,checked
-combine,يجمع / يدمج,combined,,combined
+combine.v,يجمع / يدمج,combined,,combined
 compare,يقارن,compared,,compared
 control,يتحكم في / يسيطر على,controlled,,controlled
 destroy,يدمر,destroyed,,destroyed

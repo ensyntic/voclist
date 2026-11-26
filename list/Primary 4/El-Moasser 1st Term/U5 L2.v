@@ -20,7 +20,7 @@ voice,صوت بشري
 real,حقيقي / واقعي
 *Verbs
 wait,ينتظر,waited
-use,يستخدم,used
+use.v,يستخدم,used.past
 become,يصبح,became
 tell,يخبر,told
 *Important Expressions and Prepositions

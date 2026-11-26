@@ -30,7 +30,8 @@ focus,يركز,focused,,focused
 *Lesson 2
 individually,بشكل فردى
 competition,مسابقة
-research,يبحث / بحث,researched,,researched
+research.v,يبحث,researched,,researched
+research.n,بحث
 unforgettable,لا ينسى
 revise,يراجع,revised,,revised
 enjoyable,ممتع

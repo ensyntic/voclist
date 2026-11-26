@@ -1,6 +1,6 @@
 *Materials
 wood,خشب
-concrete,خرسانة
+concrete.n,خرسانة
 metal,معدن
 cloth,قماش
 plastic,بلاستيك

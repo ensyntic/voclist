@@ -2,7 +2,7 @@
 carpenter,نجار
 skilled,ماهر / ذو مهارة
 furniture,أثاث
-crooked,مائل / منحني / معوج
+crooked.adj,مائل / منحني / معوج
 fit,يتناسب / يلائم
 shock,صدمة
 board,لوح خشبي

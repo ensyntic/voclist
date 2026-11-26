@@ -12,7 +12,7 @@ energy,طاقة
 quickly,بسرعة
 sick,مريض
 slowly,ببطء
-mouth,فم
+mouth.n,فم
 *Verbs
 chew,يمضغ,chewed
 swallow,يبتلع,swallowed

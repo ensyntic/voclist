@@ -11,7 +11,7 @@ predator,مفترس
 camels,جمال
 look for,يبحث عن
 son,ابن
-perfect,مثالى
+perfect.adj,مثالى
 leaves,أوراق الشجر
 come back,يعود
 place,مكان

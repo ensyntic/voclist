@@ -2,7 +2,7 @@
 trophy,كأس / جائزة
 meaningful,مفيد / هام
 excitement,حماس / إثارة
-present,يقدم,presented,,presented
+present.v,يقدم,presented,,presented
 clap,يصفق,clapped,,clapped
 playground,فناء
 clearly,بوضوح

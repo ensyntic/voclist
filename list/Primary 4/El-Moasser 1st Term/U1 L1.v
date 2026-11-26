@@ -17,7 +17,7 @@ colorful,ملون
 hard,صلب / خشن
 loud noise,ضوضاء صاخبة
 *Verbs
-use,يستخدم,used
+use.v,يستخدم,used.past
 taste,يتذوق,tasted
 touch,يلمس,touched
 hear,يسمع,heard

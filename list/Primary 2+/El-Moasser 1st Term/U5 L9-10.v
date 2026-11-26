@@ -16,7 +16,7 @@ wildlife,حياة برية
 idea,فكرة
 *Verbs
 disturb,يزعج
-row,يجدف
+row.v,يجدف
 drop,يلقي
 exercise,يتدرب
 keep,يحافظ

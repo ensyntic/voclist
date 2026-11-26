@@ -20,7 +20,7 @@ drops,قطرات
 mountains,جبال
 process,عملية
 liquid,سائل
-wind,رياح
+wind.n,رياح
 *Verbs
 evaporate,يتبخر,evaporated
 flow,يتدفق,flowed

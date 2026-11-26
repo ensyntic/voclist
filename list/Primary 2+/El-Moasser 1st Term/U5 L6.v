@@ -3,7 +3,7 @@ rainforest,غابة مطيرة
 monkey,قرد
 birds,طيور
 insects,حشرات
-desert,صحراء
+desert.n,صحراء
 camel,جمل
 snake,ثعبان
 Antarctic tundra,سهل أجرد في المنطقة القطبية الجنوبية

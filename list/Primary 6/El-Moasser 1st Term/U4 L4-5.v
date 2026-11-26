@@ -1,7 +1,7 @@
 *Key vocabulary
 resources,موارد
 man made,من صنع الإنسان
-research,بحث علمي
+research.n,بحث علمي
 school supplies,أدوات مدرسية
 bricks,طوب البناء
 The High Dam,السد العالي

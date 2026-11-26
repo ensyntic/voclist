@@ -15,7 +15,7 @@ temperature,الحرارة
 amazing,مدهش
 farther,أبعد
 closer,أقرب
-close,قريب
+close.adj,قريب
 far,بعيد
 hot,ساخن
 *Important Expressions and Prepositions

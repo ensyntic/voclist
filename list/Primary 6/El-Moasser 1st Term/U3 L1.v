@@ -7,7 +7,7 @@ tailor,ترزي / خياط ملابس
 delivery person,عامل توصيل طلبات
 street cleaner,عامل نظافه
 traffic officer,ضابط مرور
-research,بحث علمي
+research.n,بحث علمي
 emergency,طواريء
 community,مجتمع
 vehicles,مركبات
@@ -33,7 +33,7 @@ do research,يقوم بعمل بحث علمي
 make a list,يعد قائمة
 save lives,ينقذ حياة الاشخاص
 *Study these definitions
-research,يبحث عن معلومات
+research.v,يبحث عن معلومات
 brave,شجاع
 vehicles,مركبات
 community,مجتمع

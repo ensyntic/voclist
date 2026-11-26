@@ -12,7 +12,7 @@ heavy,ثقيل
 truck,شاحنة
 ladder,سلم / درج متنقل
 oxygen tank,أسطوانة الأكسجين
-lives,الحيوات
+lives.n,الحيوات
 tools,أدوات
 origami,فن تشكيل الورق
 art,فن

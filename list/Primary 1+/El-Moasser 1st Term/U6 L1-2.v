@@ -6,7 +6,7 @@ sea,بحر
 museum,متحف
 river,نهر
 pyramids,أهرامات
-desert,صحراء
+desert.n,صحراء
 hotel,فندق
 *Extra Vocabulary
 swim,يسبح

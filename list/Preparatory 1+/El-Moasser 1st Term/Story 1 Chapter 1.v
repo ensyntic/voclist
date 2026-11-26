@@ -13,7 +13,7 @@ fair,عادل
 ignore,يتجاهل
 push,يدفع
 treat,يعامل
-bow,ينحنى
+bow.v,ينحنى
 afraid,خائف
 alone,وحيد
 pond,بركة ماء صغيرة

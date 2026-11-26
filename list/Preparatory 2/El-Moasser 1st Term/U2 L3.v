@@ -7,7 +7,7 @@ active,نشط / إيجابى
 passive,سلبى / غير مباشر
 *Lesson 3
 comment,تعليق
-present,يُقدم,presented,,presented
+present.v,يُقدم,presented,,presented
 identify,يتعرف على / يحدد,identified,,identified
 details,تفاصيل
 disappear,يختفى,disappeared,,disappeared

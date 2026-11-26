@@ -19,7 +19,7 @@ construction,بناء - عمل بناء
 consult,يستشير - يرجع إلى,consulted,,consulted
 consequences,عواقب - نتائج
 correction,تصحيح
-deliberate,متعمد - مقصود
+deliberate.adj,متعمد - مقصود
 detailed,مفصل
 direction,اتجاه
 distinguish,يميز بين,distinguished,,distinguished

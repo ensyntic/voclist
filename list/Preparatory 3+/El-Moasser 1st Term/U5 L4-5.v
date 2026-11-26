@@ -14,7 +14,8 @@ International Peace Prize,جائزة السلام العالمية
 century,قرن
 pieces,قطع
 World Wide Web,شبكة الويب العالمية
-separate,يفصل / منفصل,separated,,separated
+separate.v,يفصل,separated,,separated
+separate.adj,منفصل
 collapse,ينهار,collapsed,,collapsed
 cause,يسبب,caused,,caused
 aware,واع / مدرك
@@ -25,7 +26,7 @@ farming,الزراعة
 generations,أجيال
 temperatures,درجات الحرارة
 lack,نقص
-produce,ينتج,produced,,produced
+produce.v,ينتج,produced,,produced
 create,ينشئ / يبتكر,created,,created
 documentary,فيلم وثائقي
 *Extra Vocabulary Lesson 5

@@ -22,7 +22,7 @@ harm,يؤذى / يضر,harmed
 wait,ينتظر,waited
 depend,يعتمد,depended
 laugh,يضحك,laughed
-transport,ينقل,transported
+transport.v,ينقل,transported
 come,يأتى,came
 say,يقول,said
 go,يذهب,went

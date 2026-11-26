@@ -15,7 +15,7 @@ expert,خبير
 approach,منهج / نمط
 choice,اختيار
 relaxed,مستريح / مسترخى
-upset,منزعج / متضايق
+upset.adj,منزعج / متضايق
 anxious,حزين / متوتر
 chores,أعمال منزلية
 effect,تأثير

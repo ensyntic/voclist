@@ -6,7 +6,7 @@ influence,تأثير
 injury,إصابة
 recover,يشفى / يتعافى,recovered,,recovered
 risk,مخاطرة
-impact,تأثير
+impact.n,تأثير
 *Lesson 3
 possible,ممكن / محتمل
 injured,مصاب

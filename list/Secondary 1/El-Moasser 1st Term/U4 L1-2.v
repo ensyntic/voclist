@@ -7,7 +7,7 @@ initiative,مبادرة
 landfill,مكب النفايات
 reduce,يقلل,reduced,,reduced
 renewable,متجدد
-reuse,يعيد استخدام,reused,,reused
+reuse.v,يعيد استخدام,reused,,reused
 reusable,قابل للإعادة الاستخدام
 slogan,شعار
 sustainable,مستدام
@@ -35,7 +35,7 @@ major,رئيسي / كبير
 manufacturer,مصنع
 manufacturing,تصنيع
 material,مادة / خامة
-misuse,سوء استخدام
+misuse.n,سوء استخدام
 negative,سلبي
 organization,منظمة
 organize,ينظم,organized,,organized
@@ -45,7 +45,7 @@ planet,كوكب
 plant,مصنع / نبات
 pollution,تلوث
 process,عملية
-produce,ينتج,produced,,produced
+produce.v,ينتج,produced,,produced
 production,إنتاج
 recycle,يعيد تدوير,recycled,,recycled
 require,يتطلب,required,,required

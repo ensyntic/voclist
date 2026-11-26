@@ -55,7 +55,7 @@ dramatically,بشكل كبير
 emphasize,يؤكد,emphasized,,emphasized
 empower,يمكن,empowered,,empowered
 flooding,فيضان
-frequent,متكرر
+frequent.adj,متكرر
 global,عالمي
 globally,عالميا
 hopeful,متفائل
@@ -76,7 +76,7 @@ movement,حركة
 optimistic,متفائل
 particularly,خصوصا
 policy,سياسة
-produce,ينتج - يولد,produced,,produced
+produce.v,ينتج - يولد,produced,,produced
 recycle,يعيد تدوير,recycled,,recycled
 reduction,تقليل
 responsibility,مسؤولية

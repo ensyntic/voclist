@@ -9,7 +9,7 @@ runner,عداء / متسابق
 snack,وجبة خفيفة
 *Verbs
 train,يتدرب,trained
-record,يسجل,recorded
+record.v,يسجل,recorded
 finish,ينتهي,finished
 bring,يحضر,brought
 come,يأتي,came

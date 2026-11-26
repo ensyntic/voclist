@@ -37,7 +37,7 @@ magazine,مجلة
 helpful,متعاون
 *Conjugation of Irregular Verbs
 hear,يسمع,heard,,heard
-read,يقرأ,read,,read
+read.v,يقرأ,read.past,,read.past
 *Collocations
 get a job,يحصل على وظيفة
 get good results,يحصل على نتائج جيدة

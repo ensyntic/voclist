@@ -12,7 +12,7 @@ ancient,قديم
 belief,معتقد
 benefit,فائدة
 celebrate,يحتفل ب / يمجد,celebrated,,celebrated
-complex,معقد
+complex.adj,معقد
 connection,ارتباط / صلة
 creative,مبدع
 creativity,إبداع
@@ -33,7 +33,7 @@ pleasure,متعة
 practice,ممارسة / عادة
 prove,يثبت,proved,,proved
 raise,يربي / يرفع / يزيد,raised,,raised
-record,يسجل,recorded,,recorded
+record.v,يسجل,recorded,,recorded
 reflect,يعكس / يتأمل,reflected,,reflected
 rise,يرتفع / يزدهر / يزداد,rose,,risen
 root,جذر

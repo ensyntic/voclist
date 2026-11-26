@@ -11,7 +11,7 @@ village,قرية
 the River Nile,نهر النيل
 smaller,أصغر حجما
 market,سوق
-live,يعيش
+live.v,يعيش
 the Mediterranean Sea,البحر الأبيض المتوسط
 town,مدينة صغيرة
 bigger,أكبر حجما

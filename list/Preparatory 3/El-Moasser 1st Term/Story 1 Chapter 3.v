@@ -1,6 +1,6 @@
 *Vocabulary
 donations,تبرعات
-upset,منزعج
+upset.adj,منزعج
 quit,يستسلم / ينسحب
 setbacks,عقبات
 instead of,بدلا من

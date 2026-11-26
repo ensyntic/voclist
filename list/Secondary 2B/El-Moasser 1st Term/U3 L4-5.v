@@ -19,7 +19,7 @@ consider,يأخذ في الاعتبار,considered,,considered
 creator,مشئ
 consent,موافقة / إذن
 discovery,اكتشاف
-document,يوثق,documented,,documented
+document.v,يوثق,documented,,documented
 enigmatic,غامض / يصعب فهمه
 expert,خبير
 expire,ينتهي,expired,,expired
@@ -58,6 +58,6 @@ spanning,يمتد
 threads,محادثات متراكبة / سلاسل نقاش
 threaten,يهدد,threatened,,threatened
 trace,يتتبع أثر
-transform,يغير بشكل جذري,transformed,,transformed
+transform.v,يغير بشكل جذري,transformed,,transformed
 uncover,يكشف عن,uncovered,,uncovered
 viral,واسع الانتشار

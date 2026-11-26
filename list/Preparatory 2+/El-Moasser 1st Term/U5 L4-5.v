@@ -1,5 +1,5 @@
 *Key Vocabulary
-progress,تقدم
+progress.n,تقدم
 humans,بشر
 hot-air balloon,منطاد الهواء الساخن
 runway,مدرج الطيران

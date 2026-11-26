@@ -4,7 +4,7 @@ park,حديقة
 museum,متحف
 supermarket,سوبر ماركت / متجر
 train station,محطة قطار
-house,منزل
+house.n,منزل
 *Extra Vocabulary
 food,طعام
 friends,أصدقاء
@@ -16,7 +16,7 @@ fun,ممتع
 busy,مشغول
 boring,ممل
 *Verbs
-live,يعيش,lived
+live.v,يعيش,lived
 pass,يمر بـ,passed
 visit,يزور,visited
 buy,يشتري,bought

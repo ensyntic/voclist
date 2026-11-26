@@ -11,7 +11,7 @@ camping,التخييم إقامة معسكر
 cell phone,هاتف محمول
 Canadian,كندى الجنسية
 club,نادى
-survey,استطلاع رأى
+survey.n,استطلاع رأى
 change,يتغير / يغير,changed,,changed
 against,ضد
 talk,يتحدث / حديث,talked,,talked

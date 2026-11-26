@@ -14,6 +14,6 @@ respecting,احترام
 discovery,اكتشاف
 carefully,بحذر
 shells,قواقع / اصداف
-lead,يقود,led,,led
+lead.v,يقود,led,,led
 get hurt,يصاب بالاذى
 suggest,يقترح,suggested,,suggested

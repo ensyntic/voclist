@@ -2,7 +2,7 @@
 amazing,مذهل - رائع
 biologist,عالم أحياء
 conservation,صيانة - حفظ
-coordinate,ينسق
+coordinate.v,ينسق
 coordinated,منسق
 detect,يكتشف,detected,,detected
 endangered,معرض للخطر - مهدد بالانقراض
@@ -28,7 +28,7 @@ turn a blind eye,يتجاهل - يغضي الطرف عن
 *Accumulative Vocabulary
 afford,يتحمل تكلفة,afforded,,afforded
 awe,احترام - مهابة
-conflict,صراع
+conflict.n,صراع
 depth,عمق
 development,تطور - تسلسل الأحداث
 dive,يغوص,dived,,dived

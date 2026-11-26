@@ -23,7 +23,7 @@ ramen,نوع من النودلز
 wedding,حفل زفاف
 manners,أخلاق
 custom,عادة
-combine,يجمع / يدمج,combined,,combined
+combine.v,يجمع / يدمج,combined,,combined
 *Lesson 2
 government,الحكومة
 bazaar,بازار / سوق

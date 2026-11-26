@@ -6,14 +6,14 @@ misunderstanding,سوء فهم / خلاف
 bond,صلة / علاقة / رابطة
 sibling,شقيق / شقيقة [أخ أو أخت]
 respectful,محترم للآخرين
-conflict,صراع / نزاع
+conflict.n,صراع / نزاع
 supportive,مساند / داعم
 resolve,يحل,resolved,,resolved
 texting,المراسلة / إرسال الرسائل
 face-to-face,مباشر / وجها لوجه
 *Lesson 1
 text message,رسالة نصية
-upset,منزعج / حزين
+upset.adj,منزعج / حزين
 thoughtful,مراع لشعور الآخرين
 cause,يسبب,caused,,caused
 body language,لغة الجسد
@@ -43,7 +43,7 @@ stay in touch,يبقى على تواصل
 *Conjugation of Irregular Verbs
 misunderstand,يسئ الفهم,misunderstood,,misunderstood
 forgive,يسامح / يغفر,forgave,,forgiven
-lead,يؤدى,led,,led
+lead.v,يؤدى,led,,led
 *Important Expressions and Prepositions
 stay connected,يبقى على اتصال
 in person,وجها لوجه / بصورة شخصية

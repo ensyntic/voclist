@@ -10,9 +10,9 @@ structural barrier,عائق بنيوي - حاجز هيكلي
 abandon,يتخلى عن,abandoned,,abandoned
 accessible,متاح - سهل الوصول
 adolescent,مراهق
-advocate,داعم - مؤيد
+advocate.n,داعم - مؤيد
 affordable,بسعر مناسب / ميسور التكلفة
-attribute,ينسب,attributed,,attributed
+attribute.v,ينسب,attributed,,attributed
 background,خلفية
 behavior,سلوك
 brand,علامة تجارية

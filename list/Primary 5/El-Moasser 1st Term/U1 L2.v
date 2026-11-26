@@ -17,7 +17,7 @@ hippo,فرس النهر
 energy,طاقة
 rats,فئران
 *Verbs
-live,يعيش,lived
+live.v,يعيش,lived
 store,يخزن,stored
 give,يعطي,gave
 hide,يختبئ,hid

@@ -17,7 +17,7 @@ diary,مفكرة يومية
 tickets,تذاكر
 national,وطنى / قومى
 ride,جولة / يركب
-perfect,ملائم / مثالى
+perfect.adj,ملائم / مثالى
 palm trees,شجر النخيل
 brochure,نشرة / منشور
 sandstone,حجر رملى

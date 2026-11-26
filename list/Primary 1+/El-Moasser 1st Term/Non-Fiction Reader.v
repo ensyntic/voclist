@@ -1,5 +1,5 @@
 *Key Vocabulary
-house,منزل
+house.n,منزل
 apartment,شقة سكنية
 cottage,كوخ
 houseboat,منزل عائم

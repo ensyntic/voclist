@@ -15,7 +15,7 @@ mineral,معدن
 frame,إطار / هيكل
 energy,طاقة
 purpose,غرض
-construct,يشيد / يبنى
+construct.v,يشيد / يبنى
 rock,صخرة
 mechanical energy,طاقة ميكانيكية
 metal,معدن
@@ -34,7 +34,7 @@ electrical energy,طاقة كهربائية
 *Verbs
 replace,يستبدل,replaced
 collect,يجمع,collected
-transfer,يحول / ينقل,transferred
+transfer.v,يحول / ينقل,transferred
 see,يرى,saw
 meet,يقابل,met
 put,يضع,put

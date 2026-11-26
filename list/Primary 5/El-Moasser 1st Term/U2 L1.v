@@ -18,7 +18,7 @@ mind,عقل
 organ,عضو
 exercising,ممارسة التمارين الرياضية
 *Verbs
-increase,يزيد,increased
+increase.v,يزيد,increased
 try,يجرب / يحاول,tried
 reduce,يقلل,reduced
 exercise,يتدرب,exercised

@@ -15,7 +15,7 @@ mean,لئيم / بخيل
 jokes,نكات
 secret,سر
 communicator,شخص يجيد التواصل
-present,هدية
+present.n,هدية
 nicely,بلطف
 situation,موقف
 share,يشارك

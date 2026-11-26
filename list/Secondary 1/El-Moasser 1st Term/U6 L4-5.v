@@ -4,15 +4,16 @@ coordinator,منسق
 promotional,ترويجي
 *Accumulative Vocabulary
 assistant,مساعد
-attribute,سمة / خصيصة
+attribute.n,سمة / خصيصة
 bachelor,بكالوريوس
 balance,توازن
 brief,مختصر
 checklist,قائمة تحقق
 competency,كفاءة / قدرة
 concise,موجز
-conduct,يجري / يقوم ب / سلوك,conducted,,conducted
-content,محتوى
+conduct.v,يجري / يقوم ب,conducted,,conducted
+conduct.n,سلوك
+content.n,محتوى
 credential,مؤهل / شهادة
 database,قاعدة بيانات
 excite,يثير حماس,excited,,excited

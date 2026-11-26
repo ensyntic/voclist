@@ -1,6 +1,6 @@
 *Key Vocabulary
 diversity,تنوع
-impact,تأثير
+impact.n,تأثير
 danger,خطر
 global responsibility,مسئولية عالمية
 participate,يُشارك,participated,,participated
@@ -11,12 +11,12 @@ clean ups,عمليات تنظيف
 creature,مخلوق
 *Lesson 3
 fever,حمى
-increase,يزيد / يزداد,increased,,increased
+increase.v,يزيد / يزداد,increased,,increased
 entertain,يسلى,entertained,,entertained
 describe,يصف,described,,described
 pollution,تلوث
 waste,نفايات
-contrast,تناقض
+contrast.n,تناقض
 diagrams,رسوم توضيحية
 convince,يُقنع,convinced,,convinced
 rights,حقوق

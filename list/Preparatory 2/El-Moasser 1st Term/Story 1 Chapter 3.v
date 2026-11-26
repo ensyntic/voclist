@@ -6,7 +6,7 @@ honest,امين
 honesty,صدق / امانة
 honestly,بامانة
 admire,يعجب بـ,admired,,admired
-present,يقدم,presented,,presented
+present.v,يقدم,presented,,presented
 clap,يصفق,clapped,,clapped
 proud,فخور
 proudly,بكل فخر

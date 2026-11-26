@@ -20,7 +20,7 @@ self image,الصورة الذاتية (نظرة الشخص لنفسه)
 acquaintance,معرفة
 celebrity,شخصية مشهورة
 behavioral,سلوكي
-construct,يبني - يشيد,constructed,,constructed
+construct.v,يبني - يشيد,constructed,,constructed
 convincing,مقنع
 decade,عقد (10 سنوات)
 dissatisfaction,عدم الرضا
@@ -46,7 +46,7 @@ symptom,عرض
 teenager,مراهق
 adolescent,مراهق
 traditional media,إعلام تقليدي
-transform,يتحول,transformed,,transformed
+transform.v,يتحول,transformed,,transformed
 unrealistic,غير واقعي
 version,نسخة
 viewer,مشاهد

@@ -16,12 +16,12 @@ port,ميناء
 comics,مجلات فكاهية
 calculator,آلة حاسبة
 loud,عالى / مرتفع الصوت
-research,بحث
+research.n,بحث
 report,تقرير
 facts,حقائق
 landmarks,المعالم الرئيسية
 farming,الزراعة
-object,شئ
+object.n,شئ
 notes,ملاحظات
 *Verbs
 jump,يقفز,jumped

@@ -8,7 +8,7 @@ cook,يطبخ,cooked
 love,يحب,loved
 help,يساعد,helped
 take,يأخذ,took
-read,يقرأ,read
+read.v,يقرأ,read.past
 grow,ينمو / يكبر,grew
 *Important Expressions and Prepositions
 take me to school,يأخذني إلى المدرسة

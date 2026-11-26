@@ -16,10 +16,10 @@ goods,بضائع
 *Extra Vocabulary Lesson 4
 products,منتجات
 traditions,تقاليد
-contrast,تباين / اختلاف
+contrast.n,تباين / اختلاف
 South America,أمريكا الجنوبية
 overtime,بمرور الوقت
-separate,منفصل
+separate.adj,منفصل
 farm,يزرع,farmed,,farmed
 affect,يؤثر,affected,,affected
 periods,فترات

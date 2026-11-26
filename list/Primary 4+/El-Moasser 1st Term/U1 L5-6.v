@@ -19,7 +19,7 @@ sugar,سكر
 clear,واضح
 unimportant information,معلومات غير هامة
 mixture,خليط
-aged,ذو عمر / سن
+aged.adj,ذو عمر / سن
 *Verbs
 organize,ينظم,organized
 develop,ينمي,developed

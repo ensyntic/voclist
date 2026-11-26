@@ -24,7 +24,7 @@ rules,قواعد / قوانين
 follow,يتبع,followed,,followed
 vote,يصوت / يقترع,voted,,voted
 life,حياة / حيوات
-lives,حياة / حيوات
+lives.n,حياة / حيوات
 empowerment,تفويض
 schedule,جدول مواعيد
 timetable,جدول مواعيد

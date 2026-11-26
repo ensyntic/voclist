@@ -14,7 +14,7 @@ sapling,شتلة / شجيرة صغيرة
 slip,يتراجع / يتقلص / ينزلق,slipped,,slipped
 stare,يحدق / ينظر بتركيز,stared,,stared
 support,يدعم / يساند / دعم,supported,,supported
-transform,يغير تماما / يحول / يتحول,transformed,,transformed
+transform.v,يغير تماما / يحول / يتحول,transformed,,transformed
 volunteer,متطوع / يتطوع,volunteered,,volunteered
 volunteering,تطوعي
 *Accumulative Vocabulary

@@ -21,7 +21,7 @@ violin,آلة الكمان
 illness,مرض
 hobbies,هوايات
 PCs,أجهزة الحاسوب الشخصى
-Polish,بولندى الجنسية
+Polish.adj,بولندى الجنسية
 invent,يخترع
 sharp,حاد
 board games,العاب لوحية

@@ -5,7 +5,7 @@ clean,ينظف
 eat,يأكل
 sleep,ينام
 watch,يشاهد
-read,يقرأ
+read.v,يقرأ
 wash,يغسل
 sit,يجلس
 *Extra Vocabulary

@@ -30,7 +30,7 @@ evidence,دليل
 exploration,استكشاف
 failure,فشل
 heritage,تراث
-impact,تأثير - أثر
+impact.n,تأثير - أثر
 instrument,آلة موسيقية
 layer,طبقة
 leisure,وقت فراغ - ترفيه

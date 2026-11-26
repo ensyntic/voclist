@@ -1,7 +1,7 @@
 *Key Vocabulary
 moral,أخلاقى [متعلق بالقيم] / المغزى
 empathy,تعاطف
-conflict,صراع / نزاع
+conflict.n,صراع / نزاع
 critically,بشكل نقدى
 spark,يحفز / يلهم,sparked,,sparked
 aware,واع / مدرك

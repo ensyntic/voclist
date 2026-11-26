@@ -11,7 +11,7 @@ device,جهاز
 *Lesson 5
 guess,يخمن,guessed,,guessed
 properly,بشكل صحيح
-complex,مُعقّد
+complex.adj,مُعقّد
 check,يفحص / يتأكد,checked,,checked
 shape,يُشكّل,shaped,,shaped
 permanent,دائم

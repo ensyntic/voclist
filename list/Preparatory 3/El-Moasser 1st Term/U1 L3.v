@@ -10,7 +10,7 @@ outgoing,اجتماعى
 *Lesson 3
 blazer,شترة
 comfort,راحة
-perfect,مثالى / تام
+perfect.adj,مثالى / تام
 introduce,يقدم / يعرض,introduced,,introduced
 hand-drawn,مرسوم باليد
 thumbs-up,رفع الإبهام للموافقة

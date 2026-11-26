@@ -1,6 +1,6 @@
 *Key Vocabulary
 pen pal,صديق بالمراسلة
-presents,هدايا
+presents.n,هدايا
 photography,التصوير الفوتوغرافى
 generous,كريم
 creative,مبدع

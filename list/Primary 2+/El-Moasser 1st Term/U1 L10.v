@@ -9,5 +9,5 @@ drink,يشرب / مشروب
 juice,عصير
 *Reading
 special,خاص / مميز
-house,منزل
+house.n,منزل
 wants,يريد

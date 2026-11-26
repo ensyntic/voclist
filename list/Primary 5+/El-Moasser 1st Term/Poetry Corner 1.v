@@ -1,5 +1,5 @@
 *Vocabulary
-wind,رياح
+wind.n,رياح
 trembling,مرتجف
 pass through,تمر من خلال
 poem,قصيدة

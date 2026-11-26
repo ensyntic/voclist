@@ -7,7 +7,7 @@ massive,ضخم - هائل
 ram headed sphinx,أبو الهول برأس كبش
 representative,ممثل - نائب
 *Important Vocabulary
-abstract,مجرد - نظري
+abstract.adj,مجرد - نظري
 achievements,إنجازات
 ambition,طموح
 angle,زاوية
@@ -16,11 +16,11 @@ avenue,طريق - ممر
 carved,منحوت
 civilization,حضارة
 column,عمود - ركن
-complex,مركب - معقد
+complex.adj,مركب - معقد
 continuity,استمرارية
 encouraged,مشجع
 enormous,ضخم - هائل
-entrance,مدخل
+entrance.n,مدخل
 era,عصر - حقبة
 generation,جيل
 heritage,تراث - إرث

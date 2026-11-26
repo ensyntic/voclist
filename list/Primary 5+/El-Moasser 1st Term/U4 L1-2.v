@@ -24,7 +24,7 @@ transportation,وسائل النقل
 *Verbs
 cycle,يقود دراجة,cycled
 push,يدفع,pushed
-increase,يزيد,increased
+increase.v,يزيد,increased
 pull,يسحب,pulled
 press,يضغط,pressed
 teach,يعلم,taught

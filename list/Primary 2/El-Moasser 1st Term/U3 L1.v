@@ -1,5 +1,5 @@
 *Key Vocabulary
-read,يقرأ
+read.v,يقرأ
 write,يكتب
 clean,ينظف
 draw,يرسم
@@ -12,5 +12,5 @@ raise hand,يرفع يد
 *Extra Vocabulary
 picture,صورة
 open,يفتح
-close,يغلق
+close.v,يغلق
 children,أطفال

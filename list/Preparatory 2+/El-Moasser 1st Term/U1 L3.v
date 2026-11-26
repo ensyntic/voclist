@@ -22,7 +22,7 @@ willing,راغب / مستعد
 free,غير مشغول
 stressful,مرهق
 exciting,ممتع
-perfect,ملائم / مناسب
+perfect.adj,ملائم / مناسب
 own,خاص
 *Extra Vocabulary
 share,يشارك,shared,,shared

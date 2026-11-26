@@ -2,7 +2,7 @@
 polar habitat,موطن قطبي
 rainforest,غابة مطيرة
 wetland,أرض رطبة
-desert,صحراء
+desert.n,صحراء
 grassland,مرعى
 *Animals
 wolf,ذئب

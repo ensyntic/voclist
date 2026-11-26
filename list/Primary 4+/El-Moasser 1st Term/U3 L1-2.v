@@ -23,7 +23,7 @@ south,جنوب
 ideas,أفكار
 activities,أنشطة
 society,مجتمع
-separate,منفصل
+separate.adj,منفصل
 kingdom,مملكة
 north,الشمال
 signs,علامات

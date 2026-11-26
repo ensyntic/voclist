@@ -8,7 +8,7 @@ cube,مكعب
 wheel,عجلة
 book,كتاب
 biscuit,بسكويت
-house,منزل
+house.n,منزل
 sign,لافتة
 picture,صورة
 door,باب

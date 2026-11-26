@@ -14,7 +14,8 @@ available,متاح - متوافر
 balanced,متوازن
 briefly,باختصار
 chemical,مادة كيميائية - كيميائي
-contrast,يقارن - تناقض,contrasted,,contrasted
+contrast.v,يقارن,contrasted,,contrasted
+contrast.n,تناقض
 crowded,مزدحم
 director,مخرج - مدير
 disappointed,خائب الأمل - محبط

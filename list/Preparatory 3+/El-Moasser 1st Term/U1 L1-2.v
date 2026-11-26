@@ -6,7 +6,7 @@ courtyard,فناء داخلي
 attitude,موقف / سلوك
 relationship,علاقة
 neighbors,جيران
-research,يبحث,researched,,researched
+research.v,يبحث,researched,,researched
 generations,أجيال
 neighborhood,حي / منطقة سكنية
 doorstep,عتبة الباب / درجة الباب
@@ -42,7 +42,7 @@ interview,مقابلة
 become,يصبح,became,,become
 come,يأتي,came,,come
 lose,يخسر / يفقد,lost,,lost
-read,يقرأ,read,,read
+read.v,يقرأ,read.past,,read.past
 say,يقول,said,,said
 take,يأخذ,took,,taken
 write,يكتب,wrote,,written

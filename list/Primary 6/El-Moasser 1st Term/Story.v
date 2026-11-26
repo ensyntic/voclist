@@ -1,6 +1,6 @@
 *Picture Dictionary
 drip,ينقط
-overflow,يغمر / يفيض
+overflow.v,يغمر / يفيض
 puddle,بركه مياه صغيرة
 leak,يسرب المياه
 hallway,ردهة
@@ -13,7 +13,7 @@ dripping,تنقيط
 precious,ثمين / نفيس
 resources,موارد
 leaky,يسرب
-overflow,يفيض / يطفح
+overflow.v,يفيض / يطفح
 puddles,برك ماء
 cheerful,مبهج / مرح
 fix,يصلح

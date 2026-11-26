@@ -22,7 +22,7 @@ conscious,واع
 consume,يتناول / يستهلك,consumed,,consumed
 consumption,استهلاك
 cope with,يتعامل مع,coped with,,coped with
-deliberate,متعمد / مقصود
+deliberate.adj,متعمد / مقصود
 depression,اكتئاب
 emotional control,تحكم عاطفي
 emotional resilience,مرونة عاطفية
@@ -40,7 +40,7 @@ loneliness,شعور بالوحدة
 maintain,يحافظ على,maintained,,maintained
 mental health,صحة نفسية
 meditation,تأمل / ممارسة الاسترخاء الذهني
-moderate,متوسط / معتدل
+moderate.adj,متوسط / معتدل
 mood,مزاج
 non judgmental,غير حكمي
 perception,إدراك / تصور
@@ -54,5 +54,5 @@ screen based,قائم على الشاشات
 self confidence,ثقة بالنفس
 sleep routine,روتين نوم
 stress,ضغط نفسي / توتر
-survey,استطلاع / مسح
+survey.n,استطلاع / مسح
 target,هدف

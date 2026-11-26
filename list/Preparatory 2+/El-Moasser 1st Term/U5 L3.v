@@ -24,7 +24,7 @@ encourage,يشجع,encouraged,,encouraged
 governments,حكومات
 tray,مكان خاص للتفتيش فى المطار
 scales,ميزان
-transport,ينقل,transported,,transported
+transport.v,ينقل,transported,,transported
 energy,طاقة
 vehicle,مركبة
 place,يضع / يرتب,placed,,placed

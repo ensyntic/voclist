@@ -2,7 +2,7 @@
 oak,شجرة بلوط
 reed,قصب
 trunk,جذع شجرة
-wind,رياح
+wind.n,رياح
 *Extra vocabulary
 thick,سميك
 suddenly,فجأة

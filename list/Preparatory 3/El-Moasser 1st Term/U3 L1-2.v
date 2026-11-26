@@ -28,7 +28,7 @@ vacuum cleaner,مكنسة كهربائية
 *Lesson 2
 global,دولى / عالمى
 personalize,يخصص,personalized,,personalized
-transform,يغير / يحول,transformed,,transformed
+transform.v,يغير / يحول,transformed,,transformed
 healthcare,رعاية صحية
 automate,يشغل آليا,automated,,automated
 field,مجال
@@ -53,7 +53,7 @@ follow orders,يتبع الأوامر
 compose music,يؤلف موسيقى
 *Conjugation of Irregular Verbs
 bring,يحضر / يجلب,brought,,brought
-read,يقرأ,read,,read
+read.v,يقرأ,read.past,,read.past
 *Important Expressions and Prepositions
 human-made,من صنع البشر
 in our daily life,فى حياتنا اليومية

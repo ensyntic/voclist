@@ -24,7 +24,7 @@ go bad,يفسد
 greenhouse gas,أحد غازات الاحتباس الحراري
 habit,عادة
 incorrectly,بشكل خاطئ
-increase,يزيد,increased,,increased
+increase.v,يزيد,increased,,increased
 issue,مشكلة - قضية
 label,ملصق - بطاقة بيانات
 local,محلي
@@ -41,7 +41,7 @@ require,يتطلب,required,,required
 serious,جاد - خطير
 sign,علامة
 study,دراسة
-survey,استبيان
+survey.n,استبيان
 throw away,يتخلص من - يرمي,threw away,,thrown away
 unsafe,غير آمن
 use by date,تاريخ انتهاء الصلاحية

@@ -6,7 +6,7 @@ do homework,يقوم بالواجب المدرسي
 watch TV,يشاهد التليفزيون
 sleep,ينام
 go to school,يذهب إلى المدرسة
-read,يقرأ
+read.v,يقرأ
 play,يلعب
 brush my teeth,اغسل أسناني بالفرشاة
 get dressed,يرتدي الملابس

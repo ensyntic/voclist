@@ -2,7 +2,7 @@
 ocean,محيط
 the River Nile,نهر النيل
 mountains,جبال
-desert,صحراء
+desert.n,صحراء
 walk,يمشي
 swim,يسبح
 dive,يغوص

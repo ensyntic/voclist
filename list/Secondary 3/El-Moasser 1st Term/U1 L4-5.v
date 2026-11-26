@@ -33,7 +33,7 @@ state,يصرح / يذكر - حالة,stated,,stated
 sterile,معقم
 stethoscope,سماعة طبية
 symptom,عرض
-tear,دمعة
+tear.n,دمعة
 teenager,مراهق
 temperature,درجة الحرارة
 viral,فيروسي

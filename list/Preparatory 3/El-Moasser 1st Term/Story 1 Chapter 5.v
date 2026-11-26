@@ -3,7 +3,7 @@ space,مساحة / فراغ
 dedicated,متفانى / مخلص
 trust,يثق / ثقة
 agriculture,الزراعة
-impact,تأثير
+impact.n,تأثير
 affect,يؤثر على
 leadership,قيادة
 industry,الصناعة

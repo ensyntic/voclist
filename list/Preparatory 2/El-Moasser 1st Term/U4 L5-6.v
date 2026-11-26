@@ -1,7 +1,7 @@
 *Key Vocabulary
 talent,موهبة
 passion,شغف
-perfect,مثالى / كامل
+perfect.adj,مثالى / كامل
 movie star,نجم سينمائى
 actress,ممثلة
 meaningful,ذو معنى / هادف

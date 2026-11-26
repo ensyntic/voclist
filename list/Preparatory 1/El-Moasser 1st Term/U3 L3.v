@@ -14,7 +14,7 @@ history,التاريخ
 deep thinker,مفكر عميق / محلل
 Suez Canal,قناة السويس
 tourist,سائح
-combine,يجمع / يضم,combined,,combined
+combine.v,يجمع / يضم,combined,,combined
 explain,يشرح / يفسر,explained,,explained
 special,مميز / خاص
 role,دور

@@ -42,14 +42,15 @@ inspiration,إلهام
 inspire,يلهم,inspired,,inspired
 knowledge,معرفة
 lack,نقص / عدم وجود
-lead,يقود / يتولى قيادة,led,,led
+lead.v,يقود / يتولى قيادة,led,,led
 legacy,إرث / تراث
 papyrus,ورق البردي
 privilege,شرف / امتياز
-progress,يتقدم / التقدم,progressed,,progressed
+progress.v,يتقدم,progressed,,progressed
+progress.n,التقدم
 protector,حام / مدافع
 reconnect,يعيد الربط / يتواصل من جديد,reconnected,,reconnected
-record,يسجل,recorded,,recorded
+record.v,يسجل,recorded,,recorded
 remind,يذكر,reminded,,reminded
 sacrifice,تضحية / يضحي,sacrificed,,sacrificed
 shape,يشكل / شكل,shaped,,shaped

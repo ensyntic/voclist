@@ -1,5 +1,5 @@
 *Key Vocabulary
-desert,صحراء
+desert.n,صحراء
 forest,غابة
 river,نهر
 ocean,محيط

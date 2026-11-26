@@ -13,7 +13,7 @@ journal,دفتر يوميات
 post,ينشر / منشور,posted,,posted
 chat,يدردش,chatted,,chatted
 check,يفحص / يراجع,checked,,checked
-research,يبحث,researched,,researched
+research.v,يبحث,researched,,researched
 control,يتحكم,controlled,,controlled
 *Lesson 6
 wonderful,رائع

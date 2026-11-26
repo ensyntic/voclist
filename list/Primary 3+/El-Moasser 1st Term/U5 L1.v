@@ -6,7 +6,7 @@ rain,مطر
 surface,سطح
 ground,أرض
 oasis,واحة
-desert,صحراء
+desert.n,صحراء
 *Extra vocabulary
 interesting,شيق / ممتع
 year,سنة

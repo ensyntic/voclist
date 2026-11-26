@@ -15,7 +15,7 @@ unusual,غير معتاد
 pack,يحزم الأمتعة
 travel plan,خطة السفر
 mummies,مومياوات
-entrance,مدخل
+entrance.n,مدخل
 amazing shows,عروض مذهلة
 *Extra Vocabulary
 suitcases,حقائب السفر

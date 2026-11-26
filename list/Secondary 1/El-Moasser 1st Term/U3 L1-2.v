@@ -2,7 +2,7 @@
 betray,يخون,betrayed,,betrayed
 betrayed,مخذول / مغدور به
 deceive,يخدع,deceived,,deceived
-exploit,يستغل / يستفيد من,exploited,,exploited
+exploit.v,يستغل / يستفيد من,exploited,,exploited
 exploitation,استغلال
 interaction,تفاعل / تواصل
 reputation,سمعة

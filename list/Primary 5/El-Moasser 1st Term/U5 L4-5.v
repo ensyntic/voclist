@@ -1,5 +1,5 @@
 *Key vocabulary
-tear,دمعة
+tear.n,دمعة
 bathe,يستحم
 sweat,عرق
 still,ساكن

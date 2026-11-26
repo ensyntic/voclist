@@ -1,6 +1,6 @@
 *Key Vocabulary
 stuff,اغراض / اشياء
-complex,معقد
+complex.adj,معقد
 innovator,مبتكر
 inspire,يلهم,inspired,,inspired
 thought,فكرة
@@ -8,7 +8,7 @@ role model,قدوة / مثل اعلى
 steps,خطوات
 inventors,المخترعون
 version,نسخة / اصدار
-impact,تاثير / اثر
+impact.n,تاثير / اثر
 professor,استاذ جامعى
 achievement,انجاز
 *Lesson 1

@@ -4,7 +4,7 @@ brush,يغسل بالفرشاة
 play,يلعب
 sleep,ينام
 eat,يأكل
-read,يقرأ
+read.v,يقرأ
 wash,يغسل
 walk,يمشي
 breakfast,وجبة الإفطار

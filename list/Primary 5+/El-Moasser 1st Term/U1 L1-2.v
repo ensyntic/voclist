@@ -4,7 +4,7 @@ forest,غابة
 rainforest,غابة مطيرة
 marine,بحرى
 freshwater,ماء عذب
-desert,صحراء
+desert.n,صحراء
 thick,سميك
 living things,كائنات حية
 illnesses,أمراض

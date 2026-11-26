@@ -8,7 +8,7 @@ write your name,اكتب اسمك
 draw a circle,ارسم دائرة
 clap,يصفق
 *Phonics
-read,يقرأ
+read.v,يقرأ
 ruler,مسطرة
 sit,يجلس
 sun,شمس

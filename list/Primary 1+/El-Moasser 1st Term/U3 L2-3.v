@@ -1,7 +1,7 @@
 *Key Vocabulary
 listen,يستمع
 look,ينظر
-read,يقرأ
+read.v,يقرأ
 write,يكتب
 sleep,ينام
 sing,يغني

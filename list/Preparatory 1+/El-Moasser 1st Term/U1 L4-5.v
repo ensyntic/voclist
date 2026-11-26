@@ -70,7 +70,7 @@ ski,يتزلج على الجليد / زلاجة,skied,,skied
 involve,يتضمن / يشمل,involved,,involved
 *Extra Vocabulary Lesson 5
 nature reserve,محمية طبيعية
-content,محتوى
+content.n,محتوى
 feedback,تغذية راجعة
 artwork,عمل فنى
 thoughts,أفكار

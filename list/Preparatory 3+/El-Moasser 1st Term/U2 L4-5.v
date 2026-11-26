@@ -25,7 +25,7 @@ equipment,معدات
 smartwatch,ساعة ذكية
 efficient,فعال / ذو كفاءة
 control,يتحكم,controlled,,controlled
-live,مباشر
+live.adj,مباشر
 continue,يستمر,continued,,continued
 identity cards,بطاقات الهوية
 bank cards,بطاقات بنكية

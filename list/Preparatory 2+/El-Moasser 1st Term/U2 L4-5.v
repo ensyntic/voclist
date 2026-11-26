@@ -8,7 +8,7 @@ trust,يثق / ثقة,trusted,,trusted
 wide range,نطاق واسع
 sugary,مُحَلى / مليء بالسكر
 ingredients,مقادير / مكونات
-produce,ينتج,produced,,produced
+produce.v,ينتج,produced,,produced
 serve,يقدم طعام,served,,served
 recipes,وصفات طعام
 national,وطنى

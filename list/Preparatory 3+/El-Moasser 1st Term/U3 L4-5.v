@@ -41,7 +41,7 @@ school mentor program,برنامج التوجيه المدرسي
 hard working,مجتهد / يعمل بجد
 convenient,ملائم
 *Conjugation of Irregular Verbs
-lead,يقود,led,,led
+lead.v,يقود,led,,led
 choose,يختار,chose,,chosen
 *Collocations
 gain experience,يكتسب خبرة

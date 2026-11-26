@@ -5,7 +5,7 @@ hear,يسمع
 hide,يختبئ
 friends,أصدقاء
 *Extra Vocabulary
-live,يعيش
+live.v,يعيش
 look,ينظر
 say,يقول
 friendly,ودود

@@ -13,7 +13,7 @@ belonging,الشعور بالانتماء
 beneficial,مفيد
 cardiovascular,متعلق بالقلب والأوعية الدموية
 competence,الكفاءة / القدرة
-conduct,يجري - يقود - يصرف,conducted,,conducted
+conduct.v,يجري - يقود - يصرف,conducted,,conducted
 competitiveness,التنافسية
 compulsory,إجباري
 consistent,ثابت - متسق
@@ -53,4 +53,4 @@ social,اجتماعي
 strength,قوة
 target,هدف
 teammate,زميل في الفريق
-transfer,ينقل - يلتقل,transferred,,transferred
+transfer.v,ينقل - يلتقل,transferred,,transferred

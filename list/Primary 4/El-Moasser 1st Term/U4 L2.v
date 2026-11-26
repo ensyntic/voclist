@@ -18,7 +18,7 @@ letters,خطابات
 *Verbs
 borrow,يستعير,borrowed
 enjoy,يستمتع بـ,enjoyed
-read,يقرأ,read
+read.v,يقرأ,read.past
 send,يرسل,sent
 teach,يعلم,taught
 *Important Expressions and Prepositions

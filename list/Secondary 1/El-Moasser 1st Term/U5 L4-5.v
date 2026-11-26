@@ -29,7 +29,7 @@ impatient,نافد الصبر
 interactive,تفاعلي
 learner,متعلم
 level,مستوى
-live,مباشر / حي
+live.adj,مباشر / حي
 local,محلي
 local,أحد السكان المحليين / مواطن
 master,يتقن,mastered,,mastered
@@ -42,8 +42,8 @@ platform,منصة
 playback,إعادة التشغيل
 podcast,تدوينة صوتية / بودكاست
 powerful,قوي
-progress,تقدم
+progress.n,تقدم
 pronunciation,نطق
 receive,يستلم / يتلقى,received,,received
 target,هدف / مستهدف
-use,استفادة / استخدام
+use.n,استفادة / استخدام

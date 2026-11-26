@@ -15,7 +15,7 @@ jump,يقفز
 fly,يطير
 talk,يتحدث
 plants,نباتات
-desert,صحراء
+desert.n,صحراء
 tea,شاي
 sleep,ينام
 drink,يشرب

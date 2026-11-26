@@ -14,7 +14,7 @@ non invasive,سطحي - ظاهري
 pose,يشكل - (خطرا),posed,,posed
 struggle,كفاح - نضال - يكافح,struggled,,struggled
 thrive,يزدهر,thrived,,thrived
-underestimate,يقلل من شأن,underestimated,,underestimated
+underestimate.v,يقلل من شأن,underestimated,,underestimated
 vivid,زاهية - ناصعة
 *Key compound adjectives
 brand new,جديد تماما / حديث جدا
@@ -42,7 +42,7 @@ impressive,مبهر - مثير للإعجاب
 lifeless,بلا حياة
 marine,بحري
 massive,ضخم
-compound,مركب
+compound.adj,مركب
 concise,موجز
 conservation,حفظ - حماية
 coral,مرجان
@@ -53,7 +53,7 @@ disturbance,إزعاج - اضطراب
 drone,طائرة مسيرة
 eco friendly,صديق للبيئة
 ecosystem,النظام البيئي
-estimate,يقدر,estimated,,estimated
+estimate.v,يقدر,estimated,,estimated
 fussy,صعب الإرضاء
 gentle,رقيق - لطيف
 giant,عملاق

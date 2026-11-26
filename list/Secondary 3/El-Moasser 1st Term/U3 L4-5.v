@@ -16,7 +16,7 @@ potential,احتمال/امكانية
 *Accumulative Vocabulary
 adaptation,تكيف
 address,يعالج / يتصدى ل / يخاطب,addressed,,addressed
-advocate,يدافع عن / يطالب ب,advocated,,advocated
+advocate.v,يدافع عن / يطالب ب,advocated,,advocated
 appeal,جاذبية - نداء - يروق ل,appealed,,appealed
 approximately,تقريبا
 average,معدل - متوسط
@@ -37,7 +37,7 @@ gain,يكتسب / يزداد,gained,,gained
 glacier,نهر جليدي
 greenhouse,دفيئة / صوبة
 hopeless,مؤوس منه
-implement,يطبق/ينفذ,implemented,,implemented
+implement.v,يطبق/ينفذ,implemented,,implemented
 implication,دلالة / نتيجة
 innovative,مبتكر
 insistent,مصر

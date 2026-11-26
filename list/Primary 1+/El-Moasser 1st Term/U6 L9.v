@@ -2,7 +2,7 @@
 beach,شاطئ
 leaf,ورقة شجر
 sea,بحر
-read,يقرأ
+read.v,يقرأ
 tree,شجرة
 sheep,خروف
 green,لون أخضر

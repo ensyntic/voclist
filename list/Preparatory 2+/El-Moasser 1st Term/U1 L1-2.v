@@ -10,7 +10,7 @@ science laboratories,معامل العلوم
 solar power,طاقة شمسية
 semester,فصل دراسى
 gym,صالة الألعاب الرياضية
-survey,استطلاع / استبيان
+survey.n,استطلاع / استبيان
 basketball court,ملعب كرة سلة
 peaceful,هادئ / مسالم
 *Extra Vocabulary Lesson 1

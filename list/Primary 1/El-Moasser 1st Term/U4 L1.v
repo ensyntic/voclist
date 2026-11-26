@@ -1,7 +1,7 @@
 *Parts of the Body
 eye,عين
 nose,أنف
-mouth,فم
+mouth.n,فم
 ear,أذن
 hand,يد
 head,رأس

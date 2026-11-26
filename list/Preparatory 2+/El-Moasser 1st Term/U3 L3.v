@@ -7,7 +7,7 @@ atmosphere,جو / أجواء
 weather,طقس
 fantastic,رائع / مدهش
 mood,حالة مزاجية
-upset,منزعج
+upset.adj,منزعج
 couch,أريكة
 topic,موضوع
 conversation,محادثة
@@ -28,7 +28,7 @@ disagree,يرفض / لا يوافق,disagreed,,disagreed
 meet,يقابل,met,,met
 get,يحصل / ينال,got,,got
 tell,يخبر,told,,told
-read,يقرأ,read,,read
+read.v,يقرأ,read.past,,read.past
 choose,يختار,chose,,chosen
 sit,يجلس,sat,,sat
 hurt,يؤذى / يجرح,hurt,,hurt

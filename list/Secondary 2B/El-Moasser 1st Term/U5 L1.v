@@ -36,7 +36,7 @@ ecosystem,نظام بيئي
 emission,انبعاث
 extreme,شديد - متطرف
 flood,فيضان
-frequent,متكرر
+frequent.adj,متكرر
 generation,جيل
 global,عالمي
 glacier,نهر جليدي

@@ -46,7 +46,7 @@ beetroot,بنجر
 bilberries,توت اسود
 consider,يعتبر,considered,,considered
 regular,منتظم
-upset,متضايق
+upset.adj,متضايق
 Borscht,بورشت / حساء البنجر طبق من أوكرانيا
 *Conjugation of Irregular Verbs
 know,يعرف,knew,,known

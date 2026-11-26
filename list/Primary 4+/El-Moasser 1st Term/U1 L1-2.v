@@ -37,7 +37,7 @@ pump,يضخ,pumped
 pass,يمر,passed
 invent,يخترع,invented
 support,يدعم,supported
-digest,يهضم,digested
+digest.v,يهضم,digested
 protect,يحمي,protected
 chew,يمضغ,chewed
 swallow,يبتلع,swallowed

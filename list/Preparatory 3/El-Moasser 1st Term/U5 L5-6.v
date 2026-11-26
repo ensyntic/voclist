@@ -1,5 +1,5 @@
 *Key Vocabulary
-perfect,مثالى / تام
+perfect.adj,مثالى / تام
 process,عملية [سلسلة من الخطوات]
 make sense,له معنى / منطقيا
 steps,خطوات

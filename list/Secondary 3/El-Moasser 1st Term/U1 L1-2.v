@@ -42,14 +42,16 @@ contaminated,ملوث
 contribute,يساهم,contributed,,contributed
 differentiate,يميز,differentiated,,differentiated
 dizzy,يشعر بالدوار (دائخ)
-document,يوثق - وثيقة/مستند,documented,,documented
+document.v,يوثق,documented,,documented
+document.n,وثيقة/مستند
 duration,مدة
 elderly,مسن
 emotionally,عاطفيا
 emphasis,تأكيد
 ensure,يضمن - يؤكد علي,ensured,,ensured
 exhausted,مرهق
-extract,يستخرج - يستخلص - اقتباس,extracted,,extracted
+extract.v,يستخرج - يستخلص,extracted,,extracted
+extract.n,اقتباس
 fulfilled,راض / مرتاح
 healthcare,الرعاية الصحية
 include,يشمل/يتضمن - يضمن,included,,included
@@ -59,7 +61,7 @@ mentally,ذهنيا - عقليا
 monitor,جهاز مراقبة - يراقب,monitored,,monitored
 nurse,ممرضة - تمرض,nursed,,nursed
 operator,موظف التشغيل
-progress,تقدم
+progress.n,تقدم
 random,عشوائي
 recover,يتعافى - يستشفي,recovered,,recovered
 reflect,يتفكر / يفكر - يعكس,reflected,,reflected
