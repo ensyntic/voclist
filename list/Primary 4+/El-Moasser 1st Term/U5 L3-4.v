@@ -29,10 +29,10 @@ code,شفرة
 space,مسافة
 account,حساب
 *Abbreviations
-tech,technology
-UX,user experience
-VR,virtual reality
-ad,advertisement
+tech,تكنولوجيا
+UX,تجربة المستخدم
+VR,الواقع الافتراضى
+ad,إعلان
 *Verbs
 create,يبدع / ينشئ,created
 design,يصمم,designed
