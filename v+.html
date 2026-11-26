@@ -47,7 +47,7 @@
             const params = new URLSearchParams(window.location.search);
             let path = params.get('data');
             if (!path) return;
-            const cm = path.match(/^([a-z0-9]{6})\.v$/i);
+            const cm = path.match(/^([a-z0-9]{6})(?:\.v)?$/i);
             if (cm) {
                 try {
                     const lt = await (await fetch('voclist.txt', { cache: 'no-store' })).text();

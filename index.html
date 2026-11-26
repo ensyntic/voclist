@@ -78,14 +78,14 @@
             if (typeof decodeBarcode === 'function') {
                 const decoded = decodeBarcode(code);
                 if (decoded && decoded.mode) {
-                    const target = decoded.mode === 'VOCLIST' ? 'voclist+.html' : 'quizzer.html';
+                    const target = decoded.mode === 'VOCLIST' ? 'v+' : 'q';
                     window.location.href = `${target}?data=list/${decoded.raw}`;
                     return;
                 }
             }
             if (code.length >= 5 && /^\d+$/.test(code)) {
                 const s1 = parseInt(code[0], 10);
-                const target = (s1 <= 4) ? 'voclist+.html' : 'quizzer.html';
+                const target = (s1 <= 4) ? 'v+' : 'q';
                 window.location.href = `${target}?data=list/${code}`;
                 return;
             }
@@ -243,10 +243,10 @@
 
         function createCard(p, l, code) {
             const div = document.createElement('div');
-            const target = currentMode === 'voc' ? 'voclist+.html' : 'quizzer.html';
+            const target = currentMode === 'voc' ? 'v+' : 'q';
             const ext = currentMode === 'voc' ? '.v' : '.q';
             div.className = "item-card block p-5 rounded-2xl font-bold flex justify-between items-center cursor-pointer hover:opacity-90 transition";
-            div.onclick = () => window.location.href = `${target}?data=${code ? code + ext : encodeURIComponent(p + ext)}`;
+            div.onclick = () => window.location.href = `${target}?data=${code ? code : encodeURIComponent(p + ext)}`;
             div.innerHTML = `<span class="text-[1.05rem]">${l}</span> <span class="text-[0.65rem] opacity-50 font-bold tracking-tighter">${currentMode === 'voc' ? 'STUDY' : 'START'} →</span>`;
             container.appendChild(div);
         }
@@ -266,7 +266,7 @@
             try {
                 label.textContent = '0%';
                 const getText = async u => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(u); return r.text(); };
-                const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('share.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('voclist+.html')]);
+                const [shareSrc, css, mainJs, twJs, plusSrc] = await Promise.all([getText('share.html'), getText('global.css'), getText('main.js'), getText('tailwind.js'), getText('v+.html')]);
                 const toDataUrl = blob => new Promise(res => { const fr = new FileReader(); fr.onload = () => res(fr.result); fr.readAsDataURL(blob); });
                 let fontCss = '';
                 for (const imp of Array.from(css.matchAll(/@import url\(['"]?([^'")]+)['"]?\);/g))) {
@@ -319,7 +319,7 @@
                 html = swap(html, '<script src="main.js"><\/script>', '<script>' + safe(mainJs) + '<\/script>');
                 html = swap(html, 'new URLSearchParams(location.search)', 'new URLSearchParams(OFFLINE.q)');
                 html = swap(html, "fetch('voclist.txt')", 'Promise.resolve(new Response(OFFLINE.txt))');
-                html = swap(html, 'window.location.href = `voclist+.html?data=${code ? code + \'.v\' : encodeURIComponent(basePath + \'.v\')}`', 'openLesson(basePath)');
+                html = swap(html, 'window.location.href = `v+?data=${code ? code : encodeURIComponent(basePath + \'.v\')}`', 'openLesson(basePath)');
                 html = swap(html, '</head>', '<script>var OFFLINE=' + JSON.stringify(offline).replace(/</g, '\\u003c') + ';<\/script></head>');
                 const study = `<div id="study" class="hidden">
 <div id="vocabulary-list" class="max-w-2xl mx-auto"></div></div>

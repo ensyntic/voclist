@@ -302,7 +302,7 @@
                 }
             };
 
-            const qm = (urlParams.get('data') || '').match(/^([a-z0-9]{6})\.q$/i);
+            const qm = (urlParams.get('data') || '').match(/^([a-z0-9]{6})(?:\.q)?$/i);
             if (qm) {
                 try {
                     const lt = await (await fetch('quizzer.txt', { cache: 'no-store' })).text();
