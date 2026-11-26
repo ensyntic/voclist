@@ -12,7 +12,7 @@ renewable energy,طاقة متجددة
 *Extra Vocabulary
 designs,تصاميم
 unnecessary,غير ضرورى
-greener,أكثر ضداقة للبيئة
+greener,أكثر صداقة للبيئة
 introduce,يقدم / يعرض,introduced,,introduced
 solar power,طاقة شمسية
 heating,التدفئة / حرارة
