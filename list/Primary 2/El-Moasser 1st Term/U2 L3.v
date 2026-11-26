@@ -1,0 +1,11 @@
+*Numbers
+one,واحد
+two,اثنان
+three,ثلاثة
+four,أربعة
+five,خمسة
+six,ستة
+seven,سبعة
+eight,ثمانية
+nine,تسعة
+ten,عشرة
