@@ -721,3 +721,15 @@ Secondary 3/Gem 1st Term/U5 L1-2
 Secondary 3/Gem 1st Term/U5 L3-4
 Secondary 3/Gem 1st Term/U6 L1-2
 Secondary 3/Gem 1st Term/U6 L3-4
+Secondary 3/El-Moasser 1st Term/U1 L1-2
+Secondary 3/El-Moasser 1st Term/U1 L4-5
+Secondary 3/El-Moasser 1st Term/U2 L1-2
+Secondary 3/El-Moasser 1st Term/U2 L4-5
+Secondary 3/El-Moasser 1st Term/U3 L1-2
+Secondary 3/El-Moasser 1st Term/U3 L4-5
+Secondary 3/El-Moasser 1st Term/U4 L1-2
+Secondary 3/El-Moasser 1st Term/U4 L4-5
+Secondary 3/El-Moasser 1st Term/U5 L1-2
+Secondary 3/El-Moasser 1st Term/U5 L4-5
+Secondary 3/El-Moasser 1st Term/U6 L1-2
+Secondary 3/El-Moasser 1st Term/U6 L4-5
